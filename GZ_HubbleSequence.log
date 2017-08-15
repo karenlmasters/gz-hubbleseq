@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=latex 2012.8.14)  12 JUL 2017 16:54
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=latex 2012.8.14)  15 AUG 2017 17:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -143,8 +143,12 @@ Underfull \hbox (badness 1917) in paragraph at lines 126--128
 []\OT1/cmr/m/n/9 Discuss pseudo-bulges ver-sus clas-si-cal bulges (e.g.
  []
 
-File: PitchAngleDH13.ps Graphic file (type eps)
-<PitchAngleDH13.ps>
+File: ross_figure.ps Graphic file (type eps)
+<ross_figure.ps>
+Overfull \hbox (41.36667pt too wide) in paragraph at lines 141--142
+[][] 
+ []
+
 
 LaTeX Warning: Reference `sample' on page 2 undefined on input line 151.
 
@@ -157,15 +161,13 @@ File: bulgewinding_nobars.ps Graphic file (type eps)
  <bulgewinding_nobars.ps>
 File: bulgewinding_bars.ps Graphic file (type eps)
 
-<bulgewinding_bars.ps>
-File: examplebulgewinding2.ps Graphic file (type eps)
- <examplebulgewinding2.ps>
-Underfull \vbox (badness 4378) has occurred while \output is active []
-
- [3]
+<bulgewinding_bars.ps> [3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
+File: examplebulgewinding2.ps Graphic file (type eps)
+
+<examplebulgewinding2.ps>
 Underfull \hbox (badness 10000) in paragraph at lines 283--284
  \OT1/cmr/bx/n/9 AC-KNOWL-EDGE-MENTS. \OT1/cmr/m/n/9 This pub-li-ca-tion has
  []
@@ -196,27 +198,20 @@ Underfull \hbox (badness 5475) in paragraph at lines 285--286
 \OT1/cmr/m/n/9 (www.galaxyzooforum.org/index.php?topic=280028.0) for
  []
 
-
-Underfull \vbox (badness 2418) has occurred while \output is active []
-
- [5]
-[6
+[5] [6
 
 ] (./GZ_HubbleSequence.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  1254 strings out of 493489
- 14357 string characters out of 3141349
- 80448 words of memory out of 3000000
+ 14351 string characters out of 3141349
+ 79448 words of memory out of 3000000
  4585 multiletter control sequences out of 15000+200000
  13862 words of font info for 47 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 32i,9n,34p,1516b,281s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,9n,34p,1516b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on GZ_HubbleSequence.dvi (6 pages, 33572 bytes).
+Output written on GZ_HubbleSequence.dvi (6 pages, 33652 bytes).
