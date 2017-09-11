@@ -39,5 +39,3 @@ is kind of similar in that way.”
 
 Kormendy \& Bender (2012) - “everything that is not forbidden is mandatory” (when it comes to galaxy evolution processes). 
 
-
-For Sam - conclusions of Kormendy \& Bender (2012) state that AGN feedback unlikely to be important for dwarf galaxies. 
