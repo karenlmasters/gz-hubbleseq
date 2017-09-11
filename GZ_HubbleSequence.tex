@@ -58,7 +58,7 @@
 \title[Galaxy Zoo View of the Hubble Sequence]{The Galaxy Zoo View of the Hubble Sequence}
 %Bars Regulating Star Formation though the Atomic Gas Content of Disc Galaxies}
 %The Atomic Gas Content of Barred Galaxies from ALFALFA$^*$: Bar Feedback in Intermediate Mass Disc Galaxies }
-\author[K.L. Masters \etal]{Karen L. Masters$^{1}$, Chris Lintott$^{2}$, Ross Hart$^{3}$, Sandor Kruk$^{2}$, \newauthor Rebecca Smethurst$^{3}$,  Kevin Casteels, Kyle Willett, ++
+\author[K.L. Masters \etal]{Karen L. Masters$^{1}$, Chris Lintott$^{2}$, Ross Hart$^{3}$, Sandor Kruk$^{2}$, \newauthor Rebecca Smethurst$^{3}$,  Kevin Casteels, Bill Keel, Kyle Willett, ++
 \newauthor (order TBD) \\
 % Robert C. Nichol$^{1,2}$, Martha P. Haynes$^3$, Chris Lintott$^4$, \newauthor Brooke Simmons$^5$, Ramin Skibba$^6$, Steven Bamford$^7$, Riccardo Giovanelli$^3$, \newauthor  Kevin Schawinski$^{5,8}$ \\
 $^1$Institute for Cosmology and Gravitation, University of Portsmouth, Dennis Sciama Building, Burnaby Road, Portsmouth, PO1 3FX, UK \\
@@ -160,7 +160,7 @@ Define other properties considered below. E.g. colours, stellar masses.
 
 We show in Figure \ref{sample}, the 22110 galaxies in our nearby volume limited sample on plots of $p_{\rm features}$ versus optical colour and magnitude ({\bf TODO: these are not the best way to get colour from SDSS, and also currently using DR7 not DR10}). These plots illustrate the well known tendency for galaxies to have two main morphological classes, in the GZ2 language those with features and those without, which is similar to the classic ``early-type" (meaning without spirals arms) and ``late-type" (\ie with spiral arms or other features). Note that the locus of ``featured" galaxies span the entire colour range of this volume limited sample, while ``smooth" galaxies are predominately red (although small samples of blue ``smooth" galaxies do exist, like the blue ellitpticals of Schawinski et al. 2009). 
 
-``Features" in the Galaxy Zoo classification tree might include disturbed or irregular morphology or mergers. Users could identify these in GZ2 after indicating the that the galaxy showed ``odd" features, and then indicating what they thought was odd. All users classifying a galaxy answered this question. We select for these by requiring at $p_{\rm odd} > 0.42$ and $N_{\rm odd}>20$ (as recommended in W13), and then by requiring $(p_{\rm irregular}+p_{\rm disturbed} + p_{\rm merger} > 0.6$ (ie. aproximately 60\% or more of the classifiers thought the galaxy was either irregular, disturbed or merging). As users could select only one of these options, using the sum is the most reliable way to identify all such objects. We find that $N=1362$ (or 6\% of  the galaxies) meet these criteria, and of these 73 (0.3\%) are found to have the largest vote for ``merger", 411 (1.9\%)  for ``disturbed" and 848 (3.8\%) for ``irregular". As these are a small fraction of the sample removing them makes little difference to the results below, never-the-less we remove them in what follows and proceed with $N=20748$ ``normal" galaxies. 
+``Features" in the Galaxy Zoo classification tree might include disturbed or irregular morphology or mergers. Users could identify these in GZ2 after indicating the that the galaxy showed ``odd" features, and then indicating what they thought was odd. All users classifying a galaxy answered this question. We select for these by requiring at $p_{\rm odd} > 0.42$ and $N_{\rm odd}>20$ (as recommended in W13), and then by requiring $(p_{\rm irregular}+p_{\rm disturbed} + p_{\rm merger} > 0.6$ (ie. approximately 60\% or more of the classifiers thought the galaxy was either irregular, disturbed or merging). As users could select only one of these options, using the sum is the most reliable way to identify all such objects. We find that $N=1362$ (or 6\% of  the galaxies) meet these criteria, and of these 73 (0.3\%) are found to have the largest vote for ``merger", 411 (1.9\%)  for ``disturbed" and 848 (3.8\%) for ``irregular". As these are a small fraction of the sample removing them makes little difference to the results below, never-the-less we remove them in what follows and proceed with $N=20748$ ``normal" galaxies. 
 
 %\begin{figure*}
 %\includegraphics[width=84mm]{barfraction_gasfraction.ps}
@@ -168,19 +168,20 @@ We show in Figure \ref{sample}, the 22110 galaxies in our nearby volume limited 
 %\caption{Shown are plots of $p_{\rm features}$ versus absolute magnitude and optical colour, as well as a classic colour magnitude diagram for the 22118 galaxies in our nearby volume limited sample from Galaxy Zoo 2. This illustrated the known tendency for galaxies to have two main types split by both colour and magnitude. \label{sample}}
 %\end{figure*}
 
- Using thresholds of $p_{\rm smooth}>0.8$ and $p_{\rm features}>0.8$ to identify cleanly classified galaxies we find that 39\% of galaxies in the sample are clearly ``featured", and 13\% are clearly ``smooth", (the remaining 48\% have only lower consensus classifications). Relaxing this to find the majority answer for all galaxies in the sample we find 63\% of the normal galaxies are best identified as ``featured" and 37\% as ``smooth". Random examples of these two classes at $z=0.03$ (the median redshift of the sample) and as a function of absolute magnitude are shown in Figure \ref{examples}. In Willet et al. (2013) we recommend thresholds of $p_{\rm smooth}>0.469$ and $p_{\rm features}>0.430$, with a minimum classifier count of $N=20$ to identify samples of galaxies in which classifications from further down the classification tree will  be reliable. We find 39\% of the sample ($N=8063$) pass this smooth threshold and 46\% ($N=9610$ pass it for featured), leaving 15\% ($N=3075$ galaxies) with only basic classifications. Table \ref{basic} summarises these data, and in addition includes fractions for galaxies in subsets by their absolute magnitude which demonstrates the well known tendency for brighter (or more massive galaxies) to be more likely to be ``smooth". 
+ Using thresholds of $p_{\rm smooth}>0.8$ and $p_{\rm features}>0.8$ to identify cleanly classified galaxies we find that 39\% of galaxies in the sample are clearly ``featured", and 13\% are clearly ``smooth", (the remaining 48\% have only lower consensus classifications). Relaxing this to find the majority answer for all galaxies in the sample we find 63\% of the normal galaxies are best identified as ``featured" and 37\% as ``smooth". Random examples of these two classes at $z=0.03$ (the median redshift of the sample) and as a function of absolute magnitude are shown in Figure \ref{examples}. % In Willet et al. (2013) we recommend thresholds of $p_{\rm smooth}>0.469$ and $p_{\rm features}>0.430$, with a minimum classifier count of $N=20$ to identify samples of galaxies in which classifications from further down the classification tree will  be reliable. We find 39\% of the sample ($N=8063$) pass this smooth threshold and 46\% ($N=9610$ pass it for featured), leaving 15\% ($N=3075$ galaxies) with only basic classifications. 
+ Table \ref{basic} summarises these data, and in addition includes fractions for galaxies in subsets by their absolute magnitude which demonstrates the well known tendency for brighter (or more massive galaxies) to be more likely to be ``smooth". 
  
 \begin{table*}
-\caption{Distribution of basic morphological class\label{basic}}
+\caption{Distribution of basic morphological class\label{basic}. TODO: update numbers for final sample.}
 \begin{tabular}{lccccc}
 \hline\hline
 Sample/defintion &  $N_{\rm smooth}$ & \%$_{\rm smooth}$ & $N_{\rm featured}$ & \%$_{\rm features}$\\
 \hline
 All ($N=22118$) \\
 ~~~~~~~~~ $p>0.8$ & 2695 & 13 & 8053 & 39 \\
-~~~~~~~~~ $p>0.5$ & 7859 & 38 & 13069 & 63 \\
+%~~~~~~~~~ $p>0.5$ & 7859 & 38 & 13069 & 63 \\
 ~~~~~~~~~ Majority vote & 7751 & 37 & 12993 & 63 \\
-~~~~~~~~~ W13 criteria  & 8063 & 39 & 9610 & 46 \\
+%~~~~~~~~~ W13 criteria  & 8063 & 39 & 9610 & 46 \\
 Majority vote  \\
 ~~~~~~~~~ Faint $M_r > -20$ ($N=10483$) & 3744 & 39 & 5896 & 61 \\
 ~~~~~~~~~ Mid 1 $-21< M_r < -20$ ($N=7609$) & 2436 & 34 & 4802 & 66 \\
