@@ -213,9 +213,15 @@ We select a low redshift volume limited sample, which is similar to the sample s
 
 We make use of Petrosian aperture photometry from SDSS in the urgriz bands. These are k-corrected as described in Bamford et al. (2009). Stellar masses are estimated from the colour-dependent mass-light ratio calibration presented by Baldry et al. (2009). $H_0$?
 
-\section{Demographics of Local Galaxies} \label{demographics}
+\section{Morphology of Local Galaxies} \label{demographics}
 
 %We show in Figure \ref{sample}, the 22110 galaxies in our nearby volume limited sample on plots of $p_{\rm features}$ versus optical colour and magnitude ({\bf TODO: these are not the best way to get colour from SDSS, and also currently using DR7 not DR10}). These plots illustrate the well known tendency for galaxies to have two main morphological classes, in the GZ2 language those with features and those without, which is similar to the classic ``early-type" (meaning without spirals arms) and ``late-type" (\ie with spiral arms or other features). Note that the locus of ``featured" galaxies span the entire colour range of this volume limited sample, while ``smooth" galaxies are predominately red (although small samples of blue ``smooth" galaxies do exist, like the blue ellitpticals of Schawinski et al. 2009). 
+
+
+\begin{figure*}
+\includegraphics[width=160mm]{example1.png}
+\caption{Randomly selected example images of galaxies classified as either ``featured" (top row) or ``smooth" (bottom row) from Galaxy Zoo as a function of $r$-band absolute magnitude (brighter to the right).  All galaxies have a redshift $z=0.03$ and are shown at the same angular scale. Images are $gri$ composites from SDSS with a scale of 1.7\arcmin square.  \label{examples}}
+\end{figure*}
 
 
 %\begin{figure*}
@@ -247,30 +253,46 @@ Majority vote  \\
 \end{tabular}
 \end{table*}
 
-\begin{figure*}
-%\includegraphics[width=84mm]{barfraction_gasfraction.ps}
-\includegraphics[width=160mm]{example1.png}
-\caption{Randomly selected example images of galaxies classified as either ``featured" (top row) or ``smooth" (bottom row) from Galaxy Zoo as a function of $r$-band absolute magnitude (brighter to the right).  All galaxies have a redshift $z=0.03$ and are shown at the same angular scale. Images are $gri$ composites from SDSS with a scale of 1.7\arcmin square.  \label{examples}}
-\end{figure*}
 
 \subsection{Spiral Arms and Bars}
  
- 
- \begin{figure*}
-\includegraphics[width=140mm]{rossfigure.png}
-\caption{(a) Galaxy Zoo winding score from Eq. \ref{eqn:winding} vs. measured pitch angles from SpArcFiRe for all spirals with at least one reliably identified arc (see Hayes 14 and Hart et al. 17). (b) Galaxy Zoo bulge prominence from Eq. \ref{eqn:bulge} vs. SDSS $r$-band bulge luminosity as measured from Simard et al. 2011. The grey contours indicate where 20, 40, 60 and 80\% of the galaxies lie in each plot and the dashed lines show the best fit straight line for each plot.  \label{pitch}}
-\end{figure*}
-
- 
-  It is only possible to identify spiral arms, bars and other disc features in disc galaxies which are sufficiently face-on for these to be visible. In a randomly oriented sample of disc galaxies, we expect to find $\sim 15\%$ of galaxies within $5\deg$ of perfectly edge-on. 
-  
-  Among the galaxies identified as ``featured" and with enough classifications at the next questions, we find {17\% ($N=1699$)} have values of $p_{\rm edge on}>0.8$. This is consistent with the number of galaxies expected to be found with $i\simeq90\deg$ in a randomly orientated sample of objects, which provides reassurance that the Galaxy Zoo "featured but not odd" sample is a reliable disc sample. In Willet et a. 2013 we publish a recommended threshold for ``oblique" galaxies in which we can reliably identify disc features (e.g. bars, spirals) of $p_{\rm not edge on}>0.715$ (and $N_{\rm not edge on}>20$). In the sample discussed in this article, we find that {66}\% of the ``featured" galaxies fall into this group {($N=6614$)}. 
+  It is only possible to identify spiral arms, bars and other disc features in disc galaxies which are sufficiently face-on for these to be visible. In a randomly oriented sample of disc galaxies, we expect to find $17\%$ of galaxies within $10\deg$ of perfectly edge-on. Among the galaxies identified as ``featured" in our ``normal" galaxy sample, we find {17\% ($N=1699$)} have values of $p_{\rm edge on}>0.8$. This is consistent with the number of galaxies expected to be found with $i\simeq90\deg$ in a randomly orientated sample of objects, which provides reassurance that the Galaxy Zoo "featured but not odd" sample is a reliable disc sample. W13 publish a recommended threshold for ``oblique" galaxies in which we can reliably identify disc features (e.g. bars, spirals) of $p_{\rm not edge on}>0.715$ (and $N_{\rm not edge on}>20$). In the sample discussed in this article, we find that {66}\% of the ``featured" galaxies fall into this group {($N=6614$)}. 
  
  Of these oblique featured galaxies: 
 \begin{itemize}
 \item {86}\% have clear spiral arms ($p_{\rm spiral} > 0.5$); just {5\%} are found to not have spiral arms to a high consensus ($p_{\rm spiral}<0.2$). 
 \item {31}\% have obvious bars ($p_{\rm bar}>0.5$). This strong bar fraction is consistent with previous Galaxy Zoo based work (e.g. Masters et al. 2011, Masters et al. 2012), given the differences in sample selection. Weaker bars can be identified by $0.2<p_{\rm bar}<0.5$ (e.g. Willett et al. 2013, Skibba et al. 2011). Another {25}\% of the oblique spirals have weak bars by this definition, leaving just over {44\%} of oblique spirals without any clear sign of a bar feature (\ie~ $p_{\rm no bar}>0.8$) at the scales detectable by the SDSS images. 
 \end{itemize}
+
+Bars in GZ2 have been studied in many papers (e.g. Masters et al. 2010, 2012, Cheung et al. 2013, Galloway et al. 2016), and the number of spiral arms have been investigated by Willet et al. 2015, and most recently Hart et al. 2017. However to date there have been no publications making use of the identification of arm winding tightness from Galaxy Zoo. 
+
+We define an arm winding score as
+\be
+\label{eqn:winding}
+w_{\rm avg} = 0.0 ~p_{\rm loose} + 0.5 p_{\rm medium} + 1.0 p_{\rm tight}.
+\ee
+This has the advantage of providing a single number measuring the tightness of the spiral arms as seen by Galaxy Zoo users, and will be $w_{\rm avg} = 1.0$ where the arms are most tightly wound and $w_{\rm avg} = 0.0$ where they are very loose. We compare these identifications with pitch angles measured by the SpArcFiRe method (Hayes 2014) in Figure \ref{pitch}. This demonstrates how well arm winding as identified by Galaxy Zoo users correlates with pitch angle for those galaxies where pitch angle can be measured. The best fit trend gives 
+\be
+\label{eqn:pitch}
+\Psi = 10.95 w_{\rm avg} + 14.73,
+\ee
+where $\Psi$ is the pitch angle in degrees, thus providing a way to estimate numerical pitch angles from the GZ2 visual descriptions. 
+
+\begin{figure*}
+\includegraphics[width=140mm]{rossfigure.png}
+\caption{(a) Galaxy Zoo winding score from Eq. \ref{eqn:winding} vs. measured pitch angles from SpArcFiRe for all spirals with at least one reliably identified arc (see Hayes 14 and Hart et al. 17). (b) Galaxy Zoo bulge prominence from Eq. \ref{eqn:bulge} vs. SDSS $r$-band bulge luminosity as measured from Simard et al. 2011. The grey contours indicate where 20, 40, 60 and 80\% of the galaxies lie in each plot and the dashed lines show the best fit straight line for each plot.  \label{pitch}}
+\end{figure*}
+
+We also plot on the right hand side of Figure \ref{pitch}, a measure of bulge size from GZ2 against the SDSS r-band luminosity of bulges as measured by Simard et al. (2011). The bulge prominence from GZ2 is defined as
+\be
+\label{eqn:bulge}
+B_{\rm avg} = 0.0 ~p_{\rm no bulge} + 0.2p_{\rm  just} + 0.8p_{\rm obvious}+ 1.0~p_{\rm dominant},
+\ee
+again providing a single number, which ranges from $B_{\rm avg} = 0.0$ for galaxies with no bulge component, to $B_{\rm avg} = 1.0$ for spiral galaxies with completely dominant bulges. As can be see in Figure \ref{pitch} these two measures of bulge size correlate well, with a best fit of 
+\be 
+L_{\rm r,bulge} = 1.54 B_{\rm avg}  + 8.63.
+\ee
+ 
  
 % Examples of oblique galaxies with and without spiral arms and bars are shown in Figure \ref{examples2} for galaxies randomly selected from these groups at $z=0.03$. 
 %\begin{figure}
@@ -279,38 +301,23 @@ Majority vote  \\
 %\caption{Examples of galaxies with (top row from left to right) $p_{\rm bar}>0.5$,  $0.2<p_{\rm bar}<0.5$ and $p_{\rm bar}<0.2$ and (bottom row from left to right) $p_{\rm spiral}>0.5$,  $0.2<p_{\rm spiral}<0.5$ and $p_{\rm spiral}<0.2$. The exact values of these debased classification fractions are indicated.   Images are $gri$ composites from SDSS with a scale of 1.7\arcmin square.  \label{examples2}}
 %\end{figure}
 
-
 \subsection{The Correlation of Bulge Size and Spiral Arm Tightness}
 
-The classic Hubble Sequence for spiral galaxies suggests that bulge size and spiral arm winding are highly correlated in most cases. In this section we investigate how tightly correlated bulge size and spiral arm tightness are found to be for galaxies with visible spiral arms in the Galaxy Zoo sample. We define a unique value of bulge size and spiral arm tightness from the GZ2 classifications as: 
-\be
-\label{eqn:bulge}
-B_{\rm avg} = 0.0 ~p_{\rm no bulge} + 0.2p_{\rm  just} + 0.8p_{\rm obvious}+ 1.0~p_{\rm dominant}
-\ee
-and
-\be
-\label{eqn:winding}
-w_{\rm avg} = 0.0 ~p_{\rm loose} + 0.5 p_{\rm medium} + 1.0 p_{\rm tight}
-\ee
-such that these numbers increase from zero to one for either bulge sizes increasing, or arms getting tighter (note that I inverted the arms index from what Casteels et al. in prep. is using in order than a ``classic" Sa would have both values of 1.0, and a ``classic Sc" would have both values of zero). 
-
- We can plot these values only for the subsample of Galaxy Zoo galaxies which have reliable classifications for both - \ie. those galaxies with visible spiral arms. We select this sample (as advised by Willett et al. 2013) using cuts on the classification votes in answers earlier up the GZ2 tree, specifically $p_{\rm features} >  0.430$,  $p_{\rm notedgeon} >  0.715$,  $p_{\rm visiblearms} >  0.619$, and in addition require the number of people answering the question about spiral arm windiness to be at least 20. This gives a sample of {$N=4830$} spiral galaxies in which we can ask how well bulge size correlates with spiral arm winding angles. 
+The classic Hubble Sequence for spiral galaxies implies that bulge size and spiral arm winding are highly correlated in most cases. In this section we investigate how tightly correlated bulge size and spiral arm tightness are found to be for galaxies with visible spiral arms in the Galaxy Zoo sample making use of the unique value of bulge size and spiral arm tightness from the GZ2 classifications as defined in Equations \ref{eqn:winding} and \ref{eqn:bulge}. These numbers increase from zero to one for either bulge sizes increasing, or arms getting tighter, in order than a ``classic" Sa should have both values of 1.0, and a ``classic Sc" would have both values of zero.  
  
- We plot the measure of bulge size versus arm windiness for this sample in Figure \ref{bulgewinding}. In this volume limited ($M_r<-19$) sample of nearby ($z<0.035$) galaxies we find no strong correlation between bulge size and arm windiness. There is a slight tendency spirals with large bulges to have only tightly wound spirals (\ie. both $A_{\rm winding}$ and $B_{\rm size}$ are large), but for spirals with small bulges all values of spiral arm winding are found.  This is consistent with the previous literature, in that Sa galaxies (as defined by arm winding) have been discussed with both large and small bulges, while Sc galaxies (as defined by loose arms) are only ever discussed with small bulges. 
+ We plot the measure of bulge size versus arm windiness for the oblique spiral sample in Figure \ref{bulgewinding}. In this volume limited ($M_r<-19$) sample of nearby ($z<0.035$) galaxies we find no strong correlation between bulge size and arm windiness. There is a slight tendency spirals with large bulges to have only tightly wound spirals (\ie. both $A_{\rm winding}$ and $B_{\rm size}$ are large), but for spirals with small bulges all values of spiral arm winding are found.  This is consistent with the previous literature, in that Sa galaxies (as defined by arm winding) have been discussed with both large and small bulges, while Sc galaxies (as defined by loose arms) are only ever discussed with small bulges. 
  
  \begin{figure}
 %\includegraphics[width=84mm]{barfraction_gasfraction.ps}
 \includegraphics[width=80mm]{bulge_armwinding.pdf}
 \caption{We show here the location of {4830} nearby spiral galaxies on a plot of bulge size versus degree of arm winding as indicated by Galaxy Zoo classifications. The contours indicate regions of high density, with the numbers showing the contour level value and points shown at the lowest density.   \label{bulgewinding}}
 \end{figure}
-
- We have checked a closer sample ($0.01<z<{0.025}$), and also a sample of only the brightest spirals ($M_r < -21$) and find no significant difference in the result, except for a tendency for the brighter spirals to have larger bulges, as expected. 
  
  We also split the sample based on bar classification, finding that spirals with strong bars ($p_{\rm bar}>0.5$)  were more likely to have larger bulges and less tightly wound spirals than those with no bars ($p_{\rm bar} < 0.2$), but there remains no clear correlation in either subgroup (see Figure \ref{bars}). The correlation between bars and spiral arm tightness is explored more in Casteels et al. in prep. 
  
  \begin{figure*}
 %\includegraphics[width=84mm]{barfraction_gasfraction.ps}
-%\includegraphics[width=80mm]{bulgewinding_nobars.ps}
+\includegraphics[width=80mm]{bulge_armwinding_splitbar.pdf}
 %\includegraphics[width=80mm]{bulgewinding_bars.ps}
 \caption{As Figure \ref{bulgewinding} but for subsamples of the oblique spirals split by bar classification.  Left panel: galaxies with $p_{\rm bar} < 0.2$; right panel: galaxies with $p_{\rm bar} > 0.5$ \label{bars}}
 \end{figure*}
