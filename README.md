@@ -39,3 +39,10 @@ is kind of similar in that way.”
 
 Kormendy \& Bender (2012) - “everything that is not forbidden is mandatory” (when it comes to galaxy evolution processes). 
 
+Hart et al. 2016: 
+“Galaxy stellar mass is known to correlate with galaxy mor- phology (Bamford et al. 2009; Kelvin et al. 2014b), and spi- ral galaxy Hubble type (Mun ̃oz-Mateos et al. 2015).”
+
+
+Dobbs & Baba 2015
+“Although the pitch angle is histor- ically used to classify galaxies according to the Hubble sequence, the differences in spiral arm shape, i.e. the pitch angle of the spiral arms appears to be most de- pendent on the maximum rotation velocity, and thus the local shear in the disc, rather than the global mass dis- tribution (Kennicutt, 1981; Kennicutt & Hodge, 1982; Garcia Gomez & Athanassoula, 1993; Seigar & James, 1998; Seigar et al., 2006). For example Figures 8 and 10 of Kennicutt (1981) show that the pitch angle corre- lates much better with the maximum rotational velocity than the properties of the bulge. However there is still considerable scatter (see Figure 7 of Kennicutt 1981)”
+

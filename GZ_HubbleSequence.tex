@@ -89,7 +89,7 @@ $^1$Institute for Cosmology and Gravitation, University of Portsmouth, Dennis Sc
 
 \begin{abstract}
 
-We use classifications provided by citizen scientists in the Galaxy Zoo project to give a new perspective on the Hubble Morphological Sequence for galaxies. We find that the modern use age of the Hubble spiral classifications (Sa--Sd) is based almost entirely on bulge size, with no reference to spiral arm winding, or ``degree of concentration" of the arms, and that furthermore in a volume limited sample of galaxies with both automated and crowdsourced measures of bulge size and spiral arm tightness there is no correlation between the two. 
+We use classifications provided by citizen scientists in the Galaxy Zoo project to give a new perspective on the Hubble Morphological Sequence for galaxies. We demonstrate that the modern use age of the Hubble spiral classifications (Sa--Sd) is based almost entirely on bulge size, with no reference to spiral arm winding, or ``degree of concentration" of the arms, and that furthermore in a volume limited sample of galaxies with both automated and crowdsourced measures of bulge size and spiral arm tightness there is no correlation between the two traditional measures of spiral galaxy type.  
 
 \end{abstract}
 
@@ -98,18 +98,18 @@ We use classifications provided by citizen scientists in the Galaxy Zoo project 
 \section{Introduction}
 
 The classification of objects into categories is a common technique across many areas of science. Galaxy morphology (\ie~ the shapes and features seen in images of galaxies) remains the most common starting point for this process in extragalactic astronomy. %(although classification on the basis of colour or spectral type is also common). 
-As a result many galaxy classification schemes have been developed (see Buta 2012, and Sandage 2005 for recent reviews, older reviews which will be of particular interest for historical notes include de Vaucouleurs 1959, Sandage 1975, Buta 1992, Buta, Corwin \& Odewahan 2007). However, the scheme first presented by Hubble (1926, 1936) remains the basis of the most commonly used classifications (e.g. as used in revised and expanded versions in {\it The Hubble Atlas} by Sandage (1961); or in the Third Reference Catalogue of Bright Galaxies, RC3 by de Vaucouleur (1991)). 
+As a result many galaxy classification schemes have been developed (see Buta 2012, and Sandage 2005 for recent reviews, older reviews which will be of particular interest for historical notes include de Vaucouleurs 1959, Sandage 1975, Buta 1992, Buta, Corwin \& Odewahan 2007). The scheme first presented by Hubble (1926, 1936) remains the basis of the most commonly used classifications (e.g. as used in revised and expanded versions in {\it The Hubble Atlas} by Sandage (1961); or in the Third Reference Catalogue of Bright Galaxies, RC3 by de Vaucouleur (1991)). 
 
 \begin{figure}
 \includegraphics[width=84mm]{TuningFork.png}
 \caption{The Hubble Sequence illustrated by the examples suggested by Hubble (1926) with images from the SDSS.  The galaxies are: : E0 – NGC 3379; E5 – NGC 4621;  Sa - NGC 4594 (``The Sombrero");  Sb - NGC 2841; Sc -  NGC 5447 (``The Pinwheel"); SBa - NGC 2859; SBb - NGC 3351 (or M95); SBc - 7479. We have also included an S0 (NGC 6278), not in Hubble’s original scheme as no examples were known at the time.) \label{sequence}}
 \end{figure}
 
-The basic ``Hubble sequence" splits galaxies into ``spiral" and ``elliptical" types, labelling ellipticals by their degree of elongation (from E0 being completely round, to E7 galaxies, with an ellipticity of 0.7). The spiral galaxies are then ordered in a sequence extending away from the ellipticals,, split into two arms by the presence or absence of a galactic bar (see Figure \ref{sequence} for a schematic using the example galaxies identified by Hubble 1926). Hubble correctly predicted the existence of an intermediate type (lenticulars, or S0s), even through no examples were known at the time (Buta 2012). By analogy with the terminology used for star classification at the time (and explicitly making the point that this was not a comment on evolutionary paths\footnote{see the Footnote I on pg 326 of Hubble (1926)}), Hubble dubbed the spiral types (a) ``early",  (b) ``intermediate" and (c) ``late"-type. This appears to be the basis of sometimes confusing terminology which has stuck, with astronomers now more commonly using ``early-type galaxies"  (ETG) to refer to ellitptical and lenticular galaxies (often, but not always, excluding the ``early-type" or Sa spirals, e.g. as used by the ATLAS-3D team; Cappellari et al. 2011a,b), while ``late-type" is commonly used to refer to any spiral galaxies (but sometimes excludes Sa spirals, e.g. Strateva et al 2001).
+The basic ``Hubble sequence" splits galaxies into ``spiral" and ``elliptical" types, labelling ellipticals by their degree of elongation (from E0 being completely round, to E7 galaxies, with an ellipticity of 0.7). The spiral galaxies are then ordered in a sequence extending away from the ellipticals,, split into two arms by the presence or absence of a galactic bar (see Figure \ref{sequence} for a schematic using the example galaxies identified by Hubble 1926). Hubble correctly predicted the existence of an intermediate type (lenticulars, or S0s), even through no examples were known at the time (Buta 2012). By analogy with the terminology used for stellar classification (and explicitly making the point that this was not a comment on evolutionary paths\footnote{see the Footnote I on pg 326 of Hubble (1926)}), Hubble dubbed the spiral types (a) ``early",  (b) ``intermediate" and (c) ``late"-type. This appears to be the basis of sometimes confusing terminology which has stuck, with astronomers now more commonly using ``early-type galaxies"  (ETG) to refer to ellitptical and lenticular galaxies (often, but not always, excluding the ``early-type" or Sa spirals, e.g. as used by the ATLAS-3D team; Cappellari et al. 2011a,b); while ``late-type" is commonly used to refer to any spiral galaxies (but sometimes excludes Sa spirals, e.g. Strateva et al 2001).
 
-The morphology of a galaxy encodes information about its formation history and evolution through what it reveals about the orbits of the stars in the galaxy, and is known to correlate remarkably well with other physical properties (e.g. Roberts \& Haynes 1994). These correlations, long with the ease of automated measurement of colour or spectral type, have resulted in a recent trend for classification on the basis of these properties rather than morphology per se (e.g.  Weinmann et al. 2006, van den Bosch et al. 2008, Zehavi et al. 2011). Indeed the strength of the correlation has led some to authors to claim that the correspondance between colour and morphology is so good that that classification by colour alone can be used to replace morphology (e.g. Park \& Choi 2005, Faber et al. 2007). Meanwhile the size of modern data sets (e.g. the Main Galaxy Sample of the Sloan Digital Sky Survey, SDSS, Strauss et al. 2002) made the traditional techniques of morphological classification by small numbers of experts implausible. This was solved making use of the technique of crowdsourcing by the Galaxy Zoo project (Lintott et al. 2008, 2011). One of the first results from the Galaxy Zoo morphological classifications was to demonstrate on a firm statistical basis that colour and morphology are not equivalent for all galaxies (Bamford et al. 2009, Schawinski et al. 2009, Masters et al. 2010) and that morphology provides complementary information on galaxy populations useful to understand the processes of galaxy evolution.  
+The morphology of a galaxy encodes information about its formation history and evolution through what it reveals about the orbits of the stars in the galaxy, and is known to correlate remarkably well with other physical properties (e.g. Roberts \& Haynes 1994). These correlations, along with the ease of automated measurement of colour or spectral type, have resulted in a recent trend for classification on the basis of these properties rather than morphology per se (e.g.  Weinmann et al. 2006, van den Bosch et al. 2008, Zehavi et al. 2011). Indeed the strength of the correlation has led some to authors to claim that the correspondance between colour and morphology is so good that that classification by colour alone can be used to replace morphology (e.g. Park \& Choi 2005, Faber et al. 2007). Meanwhile the size of modern data sets (e.g. the Main Galaxy Sample of the Sloan Digital Sky Survey, SDSS, Strauss et al. 2002) made the traditional techniques of morphological classification by small numbers of experts implausible. This problem was solved making use of the technique of crowdsourcing by the Galaxy Zoo project (Lintott et al. 2008, 2011). One of the first results from the Galaxy Zoo morphological classifications was to demonstrate on a firm statistical basis that colour and morphology are not equivalent for all galaxies (Bamford et al. 2009, Schawinski et al. 2009, Masters et al. 2010) and that morphology provides complementary information on galaxy populations useful to understand the processes of galaxy evolution.  
 
- In this article we explore an updated view of the Hubble Sequence obtained from visual classifications provided by 160,000 members of the public on $\sim$ 250,000 galaxies from the Sloan Digital Sky Survey (SDSS) Main Galaxy Sample (MGS; Strauss et al. 2002). These classifications are described in detail in Willett et al. (2013), and were made public there \footnote{see {\tt data.galaxyzoo.org}} (as well as being a Value Added Catalogue available in SDSS DR10, Ahn et al. (2013) onwards). The basic division into spiral--elliptical (or featured--smooth in the language of Galaxy Zoo, which corresponds to what many astronomers mean by early--late-type) galaxies has been discussed at length (e.g. Willett et al. 2013). In this article we particularly focus on the spiral (or featured, but not irregular) sequence, and investigate if the traditional criteria for the ordering along the sequence fit in with the picture revealed by Galaxy Zoo morphologies. 
+ In this article we explore an updated view of the Hubble Sequence obtained from visual classifications provided by 160,000 members of the public on $\sim$ 250,000 galaxies from the Sloan Digital Sky Survey (SDSS) Main Galaxy Sample (MGS; Strauss et al. 2002). These classifications are described in detail in Willett et al. (2013), available to download from {\tt data.galaxyzoo.org} (as well as being inlucded as an SDSS Value Added Catalogue from DR10 (Ahn et al. 2013) onwards). The basic division into spiral--elliptical (or featured--smooth in the language of Galaxy Zoo, which corresponds to what many astronomers mean by early- and late-type) galaxies has been discussed at length (e.g. Willett et al. 2013). In this article we particularly focus on the spiral (or more precisely ``featured, but not irregular") sequence, and investigate if the traditional criteria for the ordering along this sequence fit in with the picture revealed by Galaxy Zoo morphologies. 
 
 We remind the reader that the original Hubble sequence of Sa-Sb-Sc spiral galaxies (Hubble 1926; and extended to Sd by de Vaucouleurs 1959) was set up using three distinct criteria. These were based on (1) spiral arm appearance, split into (a) how tightly wound the spiral arms are and (b) how clear, or distinct the arms are, and (2) the prominence of the central bulge. Sa galaxies were described as having large bulges and tight, smooth (very distinct) arms, while in contrast a typical Sc was described as having a very small ``inconspicuous" bulge and very loose patchy (indistinct) arms. In Hubble's language ``normal" (S) and ``barred" (SB) spirals had identical parallel sequences. These types are illustrated by the example galaxies given in Hubble (1926; except for the S0 classification which first appeared later) in Figure \ref{sequence}. 
 
@@ -122,47 +122,101 @@ Among experts in morphology (e.g. Sandage 2005, Buta 2012), there has been a con
 
 However modern automatic galaxy classification has tended to conflate bulge size alone with spiral type (e.g. Laurikainen et al. 2007, Masters et al. 2010a), and automatic classification of galaxies into ``early-" and ``late-" types, referring to their location on the Hubble Sequence and based on bulge-total luminosity ratio ($B/T$) or some proxy for this through a measure of central concentration, or light profile shape (e.g. Sersic index, as reviewed by Graham \& Driver 2005) has become common (e.g. van der Wel et al. 2011). Indeed, Sandage (2005) says this is not new, claiming "the Hubble system for disk galaxies had its roots in an arrangement of spirals in a continuous sequence of decreasing bulge size and increasing presence of “condensations” over the face of the image that had been devised by Reynolds in 1920."
 
-
-
-
-It is clear that early S0 classification also included S0s with bulges of different sizes (S0a-S0c; Spitzer \& Baade 1951, van den Bergh 1976), a classification recently favoured by ATLAS-3D in their morpholology "comb" which includes parallel sequences of star forming and passive (or aneamic) spirals, and a ETG fast-rotator bulge size sequence similar to the S0 sequence (Cappellari et al. 2011), as well as by Kormendy \& Bender (2012) in their parallel lenticular classification scheme explictly based on $B/T$. 
+It is clear that early S0 classification also included S0s with bulges of different sizes (S0a-S0c; Spitzer \& Baade 1951, van den Bergh 1976), a classification recently promoted by ATLAS-3D in their morpholology ``comb" which includes parallel sequences of star forming and passive (or aneamic) spirals, and a ETG fast-rotator bulge size sequence similar to the S0 sequence (Cappellari et al. 2011), as well as by Kormendy \& Bender (2012) in their parallel lenticular classification scheme explictly based on $B/T$. 
 
 %Kormendy \& Bender (2012) present an update to a parallel lenticular classification scheme S0a-S0b-S0c first presented by van den Bergh (1976) and explicitly based on $B/T$ (since S0s by definition have no spiral arms). They extensively discuss S0c galaxies. 
 
-The diversity of spiral arms observed in galaxies is also not perfectly captured by the Sa-Sb-Sc spiral arm descriptors. As discussed at length by Buta (2012), the number of arms (commonly denoted $m$), ``character" of the arms (e.g. ``grand-design" or ``flocculent") and the sense of the winding of the arms relative to the galaxy rotation are all additional dimensions which can be used for classification (also see Elmegreen \& Elmegreen 1987, Ann \& Lee 2013). Buta (2012) notes that most low $m$ spirals are grand design, and goes on to discuss how spiral arm ``character" is thought to link to typical formation mechanism (with grand design spirals linked to density wave mechanisms, and flocculent spirals suggested to come from sheared self-propogating star formation regions). 
+It has also been understood for some time that the diversity of spiral arms observed in galaxies is not perfectly captured by the Sa-Sb-Sc spiral arm descriptors. As discussed at length by Buta (2012), the number of arms (commonly denoted $m$), ``character" of the arms (e.g. ``grand-design" or ``flocculent") and the sense of the winding of the arms relative to the galaxy rotation are all additional dimensions which can be used for classification (also see Elmegreen \& Elmegreen 1987, Ann \& Lee 2013). Buta (2012) notes that most low $m$ spirals are grand design, and goes on to discuss how spiral arm ``character" is thought to link to typical formation mechanism (with grand design spirals linked to density wave mechanisms, and flocculent spirals suggested to come from sheared self-propogating star formation regions). 
+
+In this paper we will make use of Galaxy Zoo classifications, which provide a quantitative visual description of structures seen in local galaxies, capturing the typical range of descriptions used to construct the traditional Hubble sequence, but are not tied to any specific classification scheme (e.g. a spiral galaxy could be described has having tightly wound spiral arms and a large bulge, if this is how it looks). We'll review these classifications in Section \ref{sample}, give basic demographics of the local sample in Section \ref{demographics}, and discuss how to use them to construct a traditional Hubble sequence, along with the implications of trends of various visible structures in Section \ref{discussion}. We conclude with a Summary section. 
 
 %Elmegreen \& Elmegreen 1987 - classes of spirals arms from flocculent to grand design.
 %Discuss pseudo-bulges versus classical bulges (e.g. Fisher \& Drory)?
 
-Todo: write coherently something about what the pitch angle of spiral arms tells us physically and why we should care if it correlates with bulge size. 
-
-From Hart et al 2016 "These properties are weakly related (Kennicutt 1981; Seigar \& James 1998): spiral arm tightness has been shown to be more strongly correlated with bulge total mass (Seigar et al. 2008; Berrier et al. 2013; Davis et al. 2015), rather than bulge-to-disk ratio."
-"In particular, the pitch angle of spiral arms is related to both the star-formation rate in spiral galaxies (Seigar 2005), and the central mass concentration of the spiral galaxies (Seigar et al. 2006, 2014)."
-
-From Dobbs \& Baba 2015  'Kennicutt (1981) indicates that the pitch angle correlates only in an average sense with galaxy type, and there is quite substantial spread.'
 
 %In Hogg et al. 1993: recent discussions of the variation of physical parameters across the Hubble Sequence (e.g. Knapp et al. 1989, Eder et al. 1991, Young \& Scoville 1991). Discusses Sas with no evidence of star formation as being "generic to the classification sequence rather than the result of environmental processes (Sandage 1983)". 
 
-\section{Sample and Data} 
+\section{Sample and Data} \label{sample}
 
-Todo: Description of Galaxy Zoo classifications pointing heavily to {Hart et al. (2016)}.
+The first two phases of Galaxy Zoo (which ran from July 2007-April 2010\footnote{GZ1 is archived at {\tt http://zoo1.galaxyzoo.org}, and GZ2 at {\tt http://zoo2.galaxyzoo.org}}) were entirely based on imaging from the Legacy Survey of the Sloan Digital Sky Survey (SDSS; York et al. 2000). In this paper we make use exclusively of classifications from the second phase of Galaxy Zoo (or GZ2; Willet et al. 2013). In total, almost 300,000 images of galaxies were shown in GZ2, selected to represent the largest and brightest galaxies observed by SDSS. For full details of the sample selection see Willet et al. 2013, but in brief GZ2 made use of the SDSS DR7 imaging (Abazajian et al. 2009) and selected galaxies with $m<17.0$, $r>3\arcsec$ and $0.0005<z<0.25$ (or with no measured redshift). Image cutouts were generated as $gri$ colour composites centred on each galaxy with a size $8.48r_{90}\arcsec \times 8.48r_{90}\arcsec$, where $r_{90}$ is the radius containing 90\% of the r-band Petrosian aperture flux). 
 
-Todo: Cite Davis \& Hayes (2013) about the reliability of spiral arm tightness identification. Also cite Hart et al. papers. 
+Visual classifications for GZ2 were collected via a web interface, which presented volunteers with the colour cutout, and a selection of simple questions about the object shown. Following Willett et al. (2013) we define a {\it classification} as the sum of all information collected about a galaxy by a single user. These {\it classifications} are made up of answers to a series of {\it tasks} presented in a decision tree. A flow chart of this tree is presented as Figure 1 in W13, and for the convenience of the reader we reproduce Table 2 of W13 which summarizes all possible {\it tasks} and answers in Table \ref{tbl-tree}. 
 
-\begin{figure*}
-\includegraphics[width=140mm]{rossfigure.png}
-\caption{(a) Galaxy Zoo winding score from Eq. \ref{eqn:winding} vs. measured pitch angles from SpArcFiRe for all spirals with at least one reliably identified arc (see Hayes 14 and Hart et al. 17). (b) Galaxy Zoo bulge prominence from Eq. \ref{eqn:bulge} vs. SDSS $r$-band bulge luminosity as measured from Simard et al. 2011. The grey contours indicate where 20, 40, 60 and 80\% of the galaxies lie in each plot and the dashed lines show the best fit straight line for each plot.  \label{pitch}}
-\end{figure*}
+\begin{table}
+ \caption{The GZ2 decision tree, comprising 11 tasks and 37 responses. The `Task' number is an abbreviation only and does {\em not} necessarily represent the order of the task within the decision tree. The text in `Question' and `Responses' are displayed to volunteers during classification. `Next' gives the subsequent task for the chosen response. \label{tbl-tree}}
+ \begin{tabular}{@{}cllr}
+ \hline
+\multicolumn{1}{l}{Task} &
+\multicolumn{1}{c}{Question} &
+\multicolumn{1}{c}{Responses} &
+\multicolumn{1}{c}{Next} 
+\\ 
+\hline
+\hline						
+01    & {\it Is the galaxy simply smooth   }  & smooth           & 07 \\
+      & {\it and rounded, with no sign of  }  & features or disk & 02 \\
+      & {\it a disk?                       }  & star or artifact & {\bf end} \\
+      \hline
+02    & {\it Could this be a disk viewed   }  & yes              & 09 \\
+      & {\it edge-on?                      }  & no               & 03 \\
+      \hline
+03    & {\it Is there a sign of a bar      }  & yes              & 04 \\
+      & {\it feature through the centre    }  & no               & 04 \\
+      & {\it of the galaxy?                }                                        \\
+      \hline
+04    & {\it Is there any sign of a        }  & yes              & 10 \\
+      & {\it spiral arm pattern?           }  & no               & 05 \\
+      \hline
+05    & {\it How prominent is the          }  & no bulge         & 06 \\
+      & {\it central bulge, compared       }  & just noticeable  & 06 \\
+      & {\it with the rest of the galaxy?  }  & obvious          & 06 \\
+      & {\it                               }  & dominant         & 06 \\
+      \hline
+06    & {\it Is there anything odd?        }  & yes              & 08 \\ 
+      & {\it                               }  & no               & {\bf end}        \\
+      \hline
+07    & {\it How rounded is it?            }  & completely round & 06 \\
+      & {\it                               }  & in between       & 06 \\
+      & {\it                               }  & cigar-shaped     & 06 \\
+      \hline
+08    & {\it Is the odd feature a ring,    }  & ring             & {\bf end}        \\
+      & {\it or is the galaxy disturbed    }  & lens or arc      & {\bf end}        \\
+      & {\it or irregular?                 }  & disturbed        & {\bf end}        \\
+      & {\it                               }  & irregular        & {\bf end}        \\  
+      & {\it                               }  & other            & {\bf end}        \\  
+      & {\it                               }  & merger           & {\bf end}        \\  
+      & {\it                               }  & dust lane        & {\bf end}        \\  
+      \hline
+09    & {\it Does the galaxy have a        }  & rounded          & 06 \\
+      & {\it bulge at its centre? If       }  & boxy             & 06 \\
+      & {\it so, what shape?               }  & no bulge         & 06 \\
+      \hline
+10    & {\it How tightly wound do the      }  & tight            & 11 \\
+      & {\it spiral arms appear?           }  & medium           & 11 \\
+      & {\it                               }  & loose            & 11 \\    
+      \hline
+11    & {\it How many spiral arms          }  & 1                & 05 \\
+      & {\it  are there?                   }  & 2                & 05 \\
+      & {\it                               }  & 3                & 05 \\
+      & {\it                               }  & 4                & 05 \\
+      & {\it                               }  & more than four   & 05 \\
+      & {\it                               }  & can't tell       & 05 \\
+\hline
+ \end{tabular}
+\end{table}
 
-We select a low redshift volume limit for the main sample considered in this paper. Of the {239,695} galaxies in the main spectroscopic sample of GZ2 ({Hart et al. 2016), we select $N=22,045$  galaxies} which are found in the redshift range $0.01<z<0.035$, and which have an $r$-band absolute Petrosian magnitude of $M_r < -19.0$. We remove {six} of these galaxies which have more than 50\% of their classification votes for ``star or artefact". Inspecting these objects they are typically genuine galaxies, but with corrupted images (e.g. under a satellite trail, or diffraction spike from a nearby bright star). However, they do not have useful GZ2 classification since so many people marked them as artefacts.
+W13 describes the process by which user responses are weighted and combined to provide vote fractions for each answer to each task for each galaxy in GZ2. We will refer to vote fractions as $p_{\rm xxx}$, where ``xxx" will describe the relevant answer. For example $p_{\rm features}$ will refer to the fraction of users answering {\it task} 01 by indicating they could see ``features or a disc" in the galaxy. W13 also describes a process of correcting for classification bias, caused primarilly by galaxies at larger redshift appearing dimmer and at coarser physical resolution than if viewed at lower redshift. Hart et al. (2016; hereafter H16) investigate this classification bias further, especially with regard to the visibility of spiral arms in GZ2, and update the redshift debiasing method to provide an updated set of debiased classifications from GZ2. In this paper we make use of the debiased classifications from H16, and when we use the terminology $p_{\rm xxx}$ we specifically refer to the debiased vote fraction. 
 
-Define other properties considered below. E.g. colours, stellar masses. 
+We select a low redshift volume limited sample, which is similar to the sample selection of (Hart et al. 2016, 2017). This is motivated by the desire to have galaxies with sufficient angular resolution that spiral arm features can be clearly identified and limit the impact of redshift debiasing. Of the {239,695} galaxies in GZ2 which have spectroscopic redshifts in DR7 (Abazajian et al. 2009, Strauss et al. 2002), we select $N=22,045$  galaxies which are found in the redshift range $0.01<z<0.035$, and which have an $r$-band absolute Petrosian magnitude of $M_r < -19.0$. We remove {six} of these galaxies which have more than 50\% of their classification votes for ``star or artefact". Inspecting these objects they are typically genuine galaxies, but with corrupted images (e.g. under a satellite trail, or diffraction spike from a nearby bright star). However, they do not have useful GZ2 classification since so many people marked them as artefacts.
 
-\section{Frequency of Different Galaxy Zoo Morphologies}
+``Features" in the Galaxy Zoo classification tree might include disturbed or irregular morphology or mergers. Users could identify these in GZ2 after indicating the that the galaxy showed ``odd" features, and then indicating what they thought was odd. All users classifying a galaxy answered this question. We select for these by requiring at $p_{\rm odd} > 0.42$ and $N_{\rm odd}>20$ (as recommended in W13), and then by requiring $(p_{\rm irregular}+p_{\rm disturbed} + p_{\rm merger} > 0.6$ (ie. approximately 60\% or more of the classifiers thought the galaxy was either irregular, disturbed or merging). As users could select only one of these options, using the sum is the most reliable way to identify all such objects. We find that {$N=1785$ (or 8\% of  the galaxies) meet these criteria, and of these 445 (2\%) are found to have the largest vote for ``merger", 137 (0.6\%)  for ``disturbed" and 1203 (5.4\%) for ``irregular"}. As these are a small fraction of the sample removing them makes little difference to the results below, never-the-less we remove them in what follows and proceed with {$N=20254$} ``normal" galaxies. 
+
+We make use of Petrosian aperture photometry from SDSS in the urgriz bands. These are k-corrected as described in Bamford et al. (2009). Stellar masses are estimated from the colour-dependent mass-light ratio calibration presented by Baldry et al. (2009). $H_0$?
+
+\section{Demographics of Local Galaxies} \label{demographics}
 
 %We show in Figure \ref{sample}, the 22110 galaxies in our nearby volume limited sample on plots of $p_{\rm features}$ versus optical colour and magnitude ({\bf TODO: these are not the best way to get colour from SDSS, and also currently using DR7 not DR10}). These plots illustrate the well known tendency for galaxies to have two main morphological classes, in the GZ2 language those with features and those without, which is similar to the classic ``early-type" (meaning without spirals arms) and ``late-type" (\ie with spiral arms or other features). Note that the locus of ``featured" galaxies span the entire colour range of this volume limited sample, while ``smooth" galaxies are predominately red (although small samples of blue ``smooth" galaxies do exist, like the blue ellitpticals of Schawinski et al. 2009). 
 
-``Features" in the Galaxy Zoo classification tree might include disturbed or irregular morphology or mergers. Users could identify these in GZ2 after indicating the that the galaxy showed ``odd" features, and then indicating what they thought was odd. All users classifying a galaxy answered this question. We select for these by requiring at $p_{\rm odd} > 0.42$ and $N_{\rm odd}>20$ (as recommended in W13), and then by requiring $(p_{\rm irregular}+p_{\rm disturbed} + p_{\rm merger} > 0.6$ (ie. approximately 60\% or more of the classifiers thought the galaxy was either irregular, disturbed or merging). As users could select only one of these options, using the sum is the most reliable way to identify all such objects. We find that {$N=1785$ (or 8\% of  the galaxies) meet these criteria, and of these 445 (2\%) are found to have the largest vote for ``merger", 137 (0.6\%)  for ``disturbed" and 1203 (5.4\%) for ``irregular"}. As these are a small fraction of the sample removing them makes little difference to the results below, never-the-less we remove them in what follows and proceed with {$N=20254$} ``normal" galaxies. 
 
 %\begin{figure*}
 %\includegraphics[width=84mm]{barfraction_gasfraction.ps}
@@ -170,8 +224,8 @@ Define other properties considered below. E.g. colours, stellar masses.
 %\caption{Shown are plots of $p_{\rm features}$ versus absolute magnitude and optical colour, as well as a classic colour magnitude diagram for the 22118 galaxies in our nearby volume limited sample from Galaxy Zoo 2. This illustrated the known tendency for galaxies to have two main types split by both colour and magnitude. \label{sample}}
 %\end{figure*}
 
- Many published works with Galaxy Zoo classifications use thresholds of $p_{\rm smooth}>0.8$ and $p_{\rm features}>0.8$ to identify cleanly classified galaxies. With these cuts, we find that {28\%} of galaxies in the sample are clearly ``featured", and {24\%} are clearly ``smooth", (the remaining 48\% have only lower consensus classifications; this can include genuinely intermediate type galaxies, but also any galaxy where volunteers did not have clear consensus on morphology). Relaxing these thresholds to rather use the majority answer for all galaxies in the sample allows every galaxy to be put into one category. With this cut (which is similar, but not identical to  $p_{\rm smooth}>0.5$ or $p_{\rm features}>0.5$, as well as the thresholds recommended in W13) we find {50\%} of the normal galaxies are best identified as ``featured" and {50\%} \% as ``smooth". Random examples of these two classes at $z=0.03$ (the median redshift of the sample) and as a function of absolute magnitude are shown in Figure \ref{examples}. % In Willet et al. (2013) we recommend thresholds of $p_{\rm smooth}>0.469$ and $p_{\rm features}>0.430$, with a minimum classifier count of $N=20$ to identify samples of galaxies in which classifications from further down the classification tree will  be reliable. We find 39\% of the sample ($N=8063$) pass this smooth threshold and 46\% ($N=9610$ pass it for featured), leaving 15\% ($N=3075$ galaxies) with only basic classifications. 
- Table \ref{basic} summarises these data, and in addition includes fractions for galaxies in subsets by their absolute magnitude which demonstrates the well known tendency for brighter (or more massive galaxies) to be more likely to be ``smooth". 
+ Many published works with Galaxy Zoo classifications use thresholds of $p_{\rm smooth}>0.8$ and $p_{\rm features}>0.8$ to identify cleanly classified galaxies. With these cuts, we find that {28\%} of galaxies in the sample are clearly ``featured", and {24\%} are clearly ``smooth", (the remaining 48\% have only lower consensus classifications; this can include genuinely intermediate type galaxies, but also any galaxy where volunteers did not have clear consensus on morphology). Relaxing these thresholds to rather use the majority answer for all galaxies in the sample allows every galaxy to be put into one category. With this cut (which is similar, but not identical to  $p_{\rm smooth}>0.5$ or $p_{\rm features}>0.5$, as well as the thresholds recommended in W13) we find {50\%} of the normal galaxies are best identified as ``featured" and {50\%} as ``smooth". Random examples of these two classes at $z=0.03$ (the median redshift of the sample) and as a function of absolute magnitude are shown in Figure \ref{examples}. % In Willet et al. (2013) we recommend thresholds of $p_{\rm smooth}>0.469$ and $p_{\rm features}>0.430$, with a minimum classifier count of $N=20$ to identify samples of galaxies in which classifications from further down the classification tree will  be reliable. We find 39\% of the sample ($N=8063$) pass this smooth threshold and 46\% ($N=9610$ pass it for featured), leaving 15\% ($N=3075$ galaxies) with only basic classifications. 
+ Table \ref{basic} summarises these data, and in addition includes fractions for galaxies in subsets by their absolute magnitude which demonstrates the well known tendency for the brightest (or most massive galaxies) to be more likely to be ``smooth", although in this sample at similar rates to the lowest luminosity subsample. 
  
 \begin{table*}
 \caption{Distribution of basic morphological class\label{basic}. TODO: update numbers for final sample.}
@@ -185,10 +239,10 @@ All ($N=20254$) \\
 ~~~~~~~~~ Majority vote & 10209 &  50 &  10045 & 50\\
 %~~~~~~~~~ W13 criteria  & 8063 & 39 & 9610 & 46 \\
 Majority vote  \\
-~~~~~~~~~ Faint $M_r > -20$ ($N=9302$) & 5655 & 61 & 3647 & 39 \\
-~~~~~~~~~ Mid 1 $-21< M_r < -20$ ($N=7103$) & 2946 & 41 & 4157 & 58 \\
-~~~~~~~~~ Mid 2 $-22< M_r  < -21$ ($N=3408$) & 1349 & 40 & 2059 & 60 \\
-~~~~~~~~~ Bright $M_r < -22$ ($N=441$) & 259 & 59 & 182 &  41\\
+~~~~~~~~~ Faint:  $M_r > -20$ ($N=9302$) & 5655 & 61 & 3647 & 39 \\
+~~~~~~~~~ Mid 1:  $-21< M_r < -20$ ($N=7103$) & 2946 & 41 & 4157 & 58 \\
+~~~~~~~~~ Mid 2:  $-22< M_r  < -21$ ($N=3408$) & 1349 & 40 & 2059 & 60 \\
+~~~~~~~~~ Bright:  $M_r < -22$ ($N=441$) & 259 & 59 & 182 &  41\\
 \hline\hline
 \end{tabular}
 \end{table*}
@@ -199,11 +253,18 @@ Majority vote  \\
 \caption{Randomly selected example images of galaxies classified as either ``featured" (top row) or ``smooth" (bottom row) from Galaxy Zoo as a function of $r$-band absolute magnitude (brighter to the right).  All galaxies have a redshift $z=0.03$ and are shown at the same angular scale. Images are $gri$ composites from SDSS with a scale of 1.7\arcmin square.  \label{examples}}
 \end{figure*}
 
-\subsection{Visibility of Spiral Arms and Bars}
+\subsection{Spiral Arms and Bars}
  
-  It is only possible to identify spiral arms, bars and other disc features in disc galaxies which are sufficiently face-on for these to be visible. 
+ 
+ \begin{figure*}
+\includegraphics[width=140mm]{rossfigure.png}
+\caption{(a) Galaxy Zoo winding score from Eq. \ref{eqn:winding} vs. measured pitch angles from SpArcFiRe for all spirals with at least one reliably identified arc (see Hayes 14 and Hart et al. 17). (b) Galaxy Zoo bulge prominence from Eq. \ref{eqn:bulge} vs. SDSS $r$-band bulge luminosity as measured from Simard et al. 2011. The grey contours indicate where 20, 40, 60 and 80\% of the galaxies lie in each plot and the dashed lines show the best fit straight line for each plot.  \label{pitch}}
+\end{figure*}
+
+ 
+  It is only possible to identify spiral arms, bars and other disc features in disc galaxies which are sufficiently face-on for these to be visible. In a randomly oriented sample of disc galaxies, we expect to find $\sim 15\%$ of galaxies within $5\deg$ of perfectly edge-on. 
   
- Among the galaxies identified as ``featured" and with enough classifications at the next questions, we find {17\% ($N=1699$)} have values of $p_{\rm edge on}>0.8$. This is consistent with the number of galaxies expected to be found with $i\simeq90\deg$ in a randomly orientated sample of objects, which provides reassurance that the Galaxy Zoo "featured but not odd" sample is a reliable disc sample. In Willet et a. 2013 we publish a recommended threshold for ``oblique" galaxies in which we can reliably identify disc features (e.g. bars, spirals) of $p_{\rm not edge on}>0.715$ (and $N_{\rm not edge on}>20$). In the sample discussed in this article, we find that {66}\% of the ``featured" galaxies fall into this group {($N=6614$)}. 
+  Among the galaxies identified as ``featured" and with enough classifications at the next questions, we find {17\% ($N=1699$)} have values of $p_{\rm edge on}>0.8$. This is consistent with the number of galaxies expected to be found with $i\simeq90\deg$ in a randomly orientated sample of objects, which provides reassurance that the Galaxy Zoo "featured but not odd" sample is a reliable disc sample. In Willet et a. 2013 we publish a recommended threshold for ``oblique" galaxies in which we can reliably identify disc features (e.g. bars, spirals) of $p_{\rm not edge on}>0.715$ (and $N_{\rm not edge on}>20$). In the sample discussed in this article, we find that {66}\% of the ``featured" galaxies fall into this group {($N=6614$)}. 
  
  Of these oblique featured galaxies: 
 \begin{itemize}
@@ -263,7 +324,7 @@ such that these numbers increase from zero to one for either bulge sizes increas
 \caption{Example images of galaxies at $z=0.03$ and $M_r\sim -21$ with both loose and tightly would spiral arms (lower and upper rows respectively) and small or large bulges (left and right columns respectively). In each case galaxies are shown with either strong bars, or no bar. Images are $gri$ composites from SDSS with a scale of 1.7\arcmin square.  \label{windingexample}}
 \end{figure*}
  
-\section{Constructing a Hubble Sequence from Galaxy Zoo}
+\section{Constructing a Hubble Sequence from Galaxy Zoo} \label{discussion}
 
 % In this context we define a ``Hubble Sequence" as a sequence of galaxies in which the average physical properties vary systematically from ``early" (defined as low current star formation rates) to ``late" (defined as high current star formation rates). We consider optical colour as a proxy for SF (what about dust)..... 
  
@@ -279,6 +340,17 @@ We point the interested reader to the lower panel of Figure 19 from W13 which co
 %\includegraphics[height=80mm,angle=-90]{T-typeW13.ps}
 %\caption{Predicted T-type classifications as fit by Willett et al. 2013 for GZ2 galaxies shown versus their T-types from Nair \& Abraham 2010. Galaxies are colour coded by their morphologies as identified by NA10. Galaxies shown are only those with sufficient answers to characterize the arms winding and arms number GZ2 tasks, which selects heavily for late-type galaxies. This explains the lack of ellipticals in the plot, but highlights the fact that S0 galaxies do not agree well with the linear sequence. Reproduced from Willet et al. 2013.  \label{T-type}}
 %\end{figure}
+
+Models of spiral arm formation (see Dobbs \& Baba 2915 for a recent and comprehensive review) do not generally predict that spiral arm pitch angle should correlate with bulge size. For example, in swing amplification models, pitch angle should correlate best with spiral arm amplitude. In density wave models it should correlate best with the local shear in the disc (related to both disc mass, and the rotation speed - so total galaxy mass).  
+
+
+Todo: write coherently something about what the pitch angle of spiral arms tells us physically and why we should care if it correlates with bulge size. 
+
+From Hart et al 2016 "These properties are weakly related (Kennicutt 1981; Seigar \& James 1998): spiral arm tightness has been shown to be more strongly correlated with bulge total mass (Seigar et al. 2008; Berrier et al. 2013; Davis et al. 2015), rather than bulge-to-disk ratio."
+"In particular, the pitch angle of spiral arms is related to both the star-formation rate in spiral galaxies (Seigar 2005), and the central mass concentration of the spiral galaxies (Seigar et al. 2006, 2014)."
+
+From Dobbs \& Baba 2015  'Kennicutt (1981) indicates that the pitch angle correlates only in an average sense with galaxy type, and there is quite substantial spread.'
+
 
 
 \section{Summary}
