@@ -39,12 +39,7 @@ bulgesize = 0.0*data['t05_bulge_prominence_a10_no_bulge_debiased'] + 0.2*data['t
 
 armwind = 0.0*data['t10_arms_winding_a30_loose_debiased'] + 0.5*data['t10_arms_winding_a29_medium_debiased'] + 1.0*data['t10_arms_winding_a28_tight_debiased']
 
-# Bin the data for the contour plot
-H, X, Y = np.histogram2d(bulgesize, armwind, range=((0,1),(0,1)), bins=20)
-Xbins = np.diff(X)/2. + X[:-1]
-Ybins = np.diff(Y)/2. + Y[:-1]
-
-# Make the pretty python plot
+# Make the pretty python plot with all the data
 
 plt.figure(figsize=(6.5,6))
 ax = plt.subplot(111)
@@ -62,3 +57,44 @@ ax.minorticks_on()
 ax.tick_params(axis='both', which='both', direction='in', top='on', right='on')
 plt.tight_layout()
 plt.savefig('../bulge_armwinding.pdf')
+
+
+
+# Make the pretty python plot with data split by p_bar < 0.2 and p_bar > 0.5
+
+nobar = np.where(data['t03_bar_a06_bar_debiased']<0.2)
+bar = np.where(data['t03_bar_a06_bar_debiased']>0.5)
+
+
+plt.figure(figsize=(14,6))
+ax1 = plt.subplot(121)
+csl = hist2d(bulgesize[nobar], armwind[nobar], bins=21, range=((-0.05,1.05),(-0.05,1.05)), smooth=0.7,
+           ax=ax1, plot_datapoints=True, plot_density=True,
+           plot_contours=True, fill_contours=True)
+ax1.clabel(csl, inline=1, fontsize=12, fmt='%i')
+ax1.set_xlabel(r'$B_{avg}$')
+ax1.set_ylabel(r'$w_{avg}$')
+# ax.set_xlim(0,1)
+# ax.set_ylim(0,1)
+ax1.minorticks_on()
+ax1.text(0.05, 0.9, r'$\rm{p}_{\rm{bar}} < 0.2$', transform=ax1.transAxes, fontsize=14)
+ax1.tick_params(axis='both', which='both', direction='in', top='on', right='on')
+
+ax2 = plt.subplot(122)
+# ax.contourf(Xbins, Ybins, H.T, origin='lower', cmap=plt.cm.binary, alpha=0.2)
+# ax.contour(Xbins, Ybins, H.T, origin='lower', colors='k')
+csl = hist2d(bulgesize[bar], armwind[bar], bins=21, range=((-0.05,1.05),(-0.05,1.05)), smooth=0.7,
+           ax=ax2, plot_datapoints=True, plot_density=True,
+           plot_contours=True, fill_contours=True)
+ax2.clabel(csl, inline=1, fontsize=12, fmt='%i')
+ax2.set_xlabel(r'$B_{avg}$')
+ax2.set_ylabel(r'$w_{avg}$')
+# ax.set_xlim(0,1)
+# ax.set_ylim(0,1)
+ax2.minorticks_on()
+ax2.text(0.05, 0.9, r'$\rm{p}_{\rm{bar}} > 0.5$', transform=ax2.transAxes, fontsize=14)
+ax2.tick_params(axis='both', which='both', direction='in', top='on', right='on')
+
+plt.tight_layout()
+plt.savefig('../bulge_armwinding_split_bar.pdf')
+
