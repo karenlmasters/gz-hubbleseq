@@ -45,6 +45,7 @@
 \voffset-1.25cm
 
 \usepackage{epsfig}
+\usepackage{color}
 \begin{document}
 
 %\title{The Galaxy Zoo View of the Hubble Sequence}
@@ -144,7 +145,7 @@ From Dobbs \& Baba 2015  'Kennicutt (1981) indicates that the pitch angle correl
 
 \section{Sample and Data} 
 
-Todo: Description of Galaxy Zoo classifications pointing heavily to Willett et al. (2013). 
+Todo: Description of Galaxy Zoo classifications pointing heavily to {Hart et al. (2016)}.
 
 Todo: Cite Davis \& Hayes (2013) about the reliability of spiral arm tightness identification. Also cite Hart et al. papers. 
 
@@ -153,7 +154,7 @@ Todo: Cite Davis \& Hayes (2013) about the reliability of spiral arm tightness i
 \caption{(a) Galaxy Zoo winding score from Eq. \ref{eqn:winding} vs. measured pitch angles from SpArcFiRe for all spirals with at least one reliably identified arc (see Hayes 14 and Hart et al. 17). (b) Galaxy Zoo bulge prominence from Eq. \ref{eqn:bulge} vs. SDSS $r$-band bulge luminosity as measured from Simard et al. 2011. The grey contours indicate where 20, 40, 60 and 80\% of the galaxies lie in each plot and the dashed lines show the best fit straight line for each plot.  \label{pitch}}
 \end{figure*}
 
-We select a low redshift volume limit for the main sample considered in this paper. Of the 243500 galaxies in the main spectroscopic sample of GZ2 (Willett et al. 2013), we selection $N=22118$ which are found in the redshift range $0.01<z<0.035$, and which have an $r$-band absolute Petrosian magnitude of $M_r < -19.0$. We remove eight of these galaxies which have more than 50\% of their classification votes for ``star or artefact". Inspecting these objects they are typically genuine galaxies, but with corrupted images (e.g. under a satellite trail, or diffraction spike from a nearby bright star). However, they do not have useful GZ2 classification since so many people marked them as artefacts.
+We select a low redshift volume limit for the main sample considered in this paper. Of the {239,695} galaxies in the main spectroscopic sample of GZ2 ({Hart et al. 2016), we select $N=22,045$  galaxies} which are found in the redshift range $0.01<z<0.035$, and which have an $r$-band absolute Petrosian magnitude of $M_r < -19.0$. We remove {six} of these galaxies which have more than 50\% of their classification votes for ``star or artefact". Inspecting these objects they are typically genuine galaxies, but with corrupted images (e.g. under a satellite trail, or diffraction spike from a nearby bright star). However, they do not have useful GZ2 classification since so many people marked them as artefacts.
 
 Define other properties considered below. E.g. colours, stellar masses. 
 
@@ -161,7 +162,7 @@ Define other properties considered below. E.g. colours, stellar masses.
 
 %We show in Figure \ref{sample}, the 22110 galaxies in our nearby volume limited sample on plots of $p_{\rm features}$ versus optical colour and magnitude ({\bf TODO: these are not the best way to get colour from SDSS, and also currently using DR7 not DR10}). These plots illustrate the well known tendency for galaxies to have two main morphological classes, in the GZ2 language those with features and those without, which is similar to the classic ``early-type" (meaning without spirals arms) and ``late-type" (\ie with spiral arms or other features). Note that the locus of ``featured" galaxies span the entire colour range of this volume limited sample, while ``smooth" galaxies are predominately red (although small samples of blue ``smooth" galaxies do exist, like the blue ellitpticals of Schawinski et al. 2009). 
 
-``Features" in the Galaxy Zoo classification tree might include disturbed or irregular morphology or mergers. Users could identify these in GZ2 after indicating the that the galaxy showed ``odd" features, and then indicating what they thought was odd. All users classifying a galaxy answered this question. We select for these by requiring at $p_{\rm odd} > 0.42$ and $N_{\rm odd}>20$ (as recommended in W13), and then by requiring $(p_{\rm irregular}+p_{\rm disturbed} + p_{\rm merger} > 0.6$ (ie. approximately 60\% or more of the classifiers thought the galaxy was either irregular, disturbed or merging). As users could select only one of these options, using the sum is the most reliable way to identify all such objects. We find that $N=1362$ (or 6\% of  the galaxies) meet these criteria, and of these 73 (0.3\%) are found to have the largest vote for ``merger", 411 (1.9\%)  for ``disturbed" and 848 (3.8\%) for ``irregular". As these are a small fraction of the sample removing them makes little difference to the results below, never-the-less we remove them in what follows and proceed with $N=20748$ ``normal" galaxies. 
+``Features" in the Galaxy Zoo classification tree might include disturbed or irregular morphology or mergers. Users could identify these in GZ2 after indicating the that the galaxy showed ``odd" features, and then indicating what they thought was odd. All users classifying a galaxy answered this question. We select for these by requiring at $p_{\rm odd} > 0.42$ and $N_{\rm odd}>20$ (as recommended in W13), and then by requiring $(p_{\rm irregular}+p_{\rm disturbed} + p_{\rm merger} > 0.6$ (ie. approximately 60\% or more of the classifiers thought the galaxy was either irregular, disturbed or merging). As users could select only one of these options, using the sum is the most reliable way to identify all such objects. We find that {$N=1785$ (or 8\% of  the galaxies) meet these criteria, and of these 445 (2\%) are found to have the largest vote for ``merger", 137 (0.6\%)  for ``disturbed" and 1203 (5.4\%) for ``irregular"}. As these are a small fraction of the sample removing them makes little difference to the results below, never-the-less we remove them in what follows and proceed with {$N=20254$} ``normal" galaxies. 
 
 %\begin{figure*}
 %\includegraphics[width=84mm]{barfraction_gasfraction.ps}
@@ -169,7 +170,7 @@ Define other properties considered below. E.g. colours, stellar masses.
 %\caption{Shown are plots of $p_{\rm features}$ versus absolute magnitude and optical colour, as well as a classic colour magnitude diagram for the 22118 galaxies in our nearby volume limited sample from Galaxy Zoo 2. This illustrated the known tendency for galaxies to have two main types split by both colour and magnitude. \label{sample}}
 %\end{figure*}
 
- Many published works with Galaxy Zoo classifications use thresholds of $p_{\rm smooth}>0.8$ and $p_{\rm features}>0.8$ to identify cleanly classified galaxies. With these cuts, we find that 39\% of galaxies in the sample are clearly ``featured", and 13\% are clearly ``smooth", (the remaining 48\% have only lower consensus classifications; this can include genuinely intermediate type galaxies, but also any galaxy where volunteers did not have clear consensus on morphology). Relaxing these thresholds to rather use the majority answer for all galaxies in the sample allows every galaxy to be put into one category. With this cut (which is similar, but not identical to  $p_{\rm smooth}>0.5$ or $p_{\rm features}>0.5$, as well as the thresholds recommended in W13) we find 63\% of the normal galaxies are best identified as ``featured" and 37\% as ``smooth". Random examples of these two classes at $z=0.03$ (the median redshift of the sample) and as a function of absolute magnitude are shown in Figure \ref{examples}. % In Willet et al. (2013) we recommend thresholds of $p_{\rm smooth}>0.469$ and $p_{\rm features}>0.430$, with a minimum classifier count of $N=20$ to identify samples of galaxies in which classifications from further down the classification tree will  be reliable. We find 39\% of the sample ($N=8063$) pass this smooth threshold and 46\% ($N=9610$ pass it for featured), leaving 15\% ($N=3075$ galaxies) with only basic classifications. 
+ Many published works with Galaxy Zoo classifications use thresholds of $p_{\rm smooth}>0.8$ and $p_{\rm features}>0.8$ to identify cleanly classified galaxies. With these cuts, we find that {28\%} of galaxies in the sample are clearly ``featured", and {24\%} are clearly ``smooth", (the remaining 48\% have only lower consensus classifications; this can include genuinely intermediate type galaxies, but also any galaxy where volunteers did not have clear consensus on morphology). Relaxing these thresholds to rather use the majority answer for all galaxies in the sample allows every galaxy to be put into one category. With this cut (which is similar, but not identical to  $p_{\rm smooth}>0.5$ or $p_{\rm features}>0.5$, as well as the thresholds recommended in W13) we find {50\%} of the normal galaxies are best identified as ``featured" and {50\%} \% as ``smooth". Random examples of these two classes at $z=0.03$ (the median redshift of the sample) and as a function of absolute magnitude are shown in Figure \ref{examples}. % In Willet et al. (2013) we recommend thresholds of $p_{\rm smooth}>0.469$ and $p_{\rm features}>0.430$, with a minimum classifier count of $N=20$ to identify samples of galaxies in which classifications from further down the classification tree will  be reliable. We find 39\% of the sample ($N=8063$) pass this smooth threshold and 46\% ($N=9610$ pass it for featured), leaving 15\% ($N=3075$ galaxies) with only basic classifications. 
  Table \ref{basic} summarises these data, and in addition includes fractions for galaxies in subsets by their absolute magnitude which demonstrates the well known tendency for brighter (or more massive galaxies) to be more likely to be ``smooth". 
  
 \begin{table*}
@@ -178,16 +179,16 @@ Define other properties considered below. E.g. colours, stellar masses.
 \hline\hline
 Sample/defintion &  $N_{\rm smooth}$ & \%$_{\rm smooth}$ & $N_{\rm featured}$ & \%$_{\rm features}$\\
 \hline
-All ($N=20748$) \\
-~~~~~~~~~ $p>0.8$ & 2695 & 13 & 8053 & 39 \\
+All ($N=20254$) \\
+~~~~~~~~~ $ p>0.8$ & 4860 &  24 & 5694 &  28 \\
 %~~~~~~~~~ $p>0.5$ & 7859 & 38 & 13069 & 63 \\
-~~~~~~~~~ Majority vote & 7751 & 37 & 12993 & 63 \\
+~~~~~~~~~ Majority vote & 10209 &  50 &  10045 & 50\\
 %~~~~~~~~~ W13 criteria  & 8063 & 39 & 9610 & 46 \\
 Majority vote  \\
-~~~~~~~~~ Faint $M_r > -20$ ($N=10483$) & 3744 & 39 & 5896 & 61 \\
-~~~~~~~~~ Mid 1 $-21< M_r < -20$ ($N=7609$) & 2436 & 34 & 4802 & 66 \\
-~~~~~~~~~ Mid 2 $-22< M_r  < -21$ ($N=3553$) & 1318 & 38 & 2105 & 62 \\
-~~~~~~~~~ Bright $M_r < -22$ ($N=465$) & 253 & 57 & 190 &  43\\
+~~~~~~~~~ Faint $M_r > -20$ ($N=9302$) & 5655 & 61 & 3647 & 39 \\
+~~~~~~~~~ Mid 1 $-21< M_r < -20$ ($N=7103$) & 2946 & 41 & 4157 & 58 \\
+~~~~~~~~~ Mid 2 $-22< M_r  < -21$ ($N=3408$) & 1349 & 40 & 2059 & 60 \\
+~~~~~~~~~ Bright $M_r < -22$ ($N=441$) & 259 & 59 & 182 &  41\\
 \hline\hline
 \end{tabular}
 \end{table*}
@@ -202,12 +203,12 @@ Majority vote  \\
  
   It is only possible to identify spiral arms, bars and other disc features in disc galaxies which are sufficiently face-on for these to be visible. 
   
- Among the galaxies identified as ``featured" and with enough classifications at the next questions, we find 16\% ($N=1498$) have values of $p_{\rm edge on}>0.8$. This is consistent with the number of galaxies expected to be found with $i\simeq90\deg$ in a randomly orientated sample of objects, which provides reassurance that the Galaxy Zoo "featured but not odd" sample is a reliable disc sample. In Willet et a. 2013 we publish a recommended threshold for ``oblique" galaxies in which we can reliably identify disc features (e.g. bars, spirals) of $p_{\rm not edge on}>0.715$ (and $N_{\rm not edge on}>20$). In the sample discussed in this article, we find that 71\% of the ``featured" galaxies fall into this group ($N=6858$). 
+ Among the galaxies identified as ``featured" and with enough classifications at the next questions, we find {17\% ($N=1699$)} have values of $p_{\rm edge on}>0.8$. This is consistent with the number of galaxies expected to be found with $i\simeq90\deg$ in a randomly orientated sample of objects, which provides reassurance that the Galaxy Zoo "featured but not odd" sample is a reliable disc sample. In Willet et a. 2013 we publish a recommended threshold for ``oblique" galaxies in which we can reliably identify disc features (e.g. bars, spirals) of $p_{\rm not edge on}>0.715$ (and $N_{\rm not edge on}>20$). In the sample discussed in this article, we find that {66}\% of the ``featured" galaxies fall into this group {($N=6614$)}. 
  
  Of these oblique featured galaxies: 
 \begin{itemize}
-\item 78\% have clear spiral arms ($p_{\rm spiral} > 0.5$); just 7\% are found to not have spiral arms to a high consensus ($p_{\rm spiral}<0.2$). 
-\item 26\% have obvious bars ($p_{\rm bar}>0.5$). This strong bar fraction is consistent with previous Galaxy Zoo based work (e.g. Masters et al. 2011, Masters et al. 2012), given the differences in sample selection. Weaker bars can be identified by $0.2<p_{\rm bar}<0.5$ (e.g. Willett et al. 2013, Skibba et al. 2011). Another 22\% of the oblique spirals have weak bars by this definition, leaving just over 50\% of oblique spirals without any clear sign of a bar feature (\ie~ $p_{\rm no bar}>0.8$) at the scales detectable by the SDSS images. 
+\item {86}\% have clear spiral arms ($p_{\rm spiral} > 0.5$); just {5\%} are found to not have spiral arms to a high consensus ($p_{\rm spiral}<0.2$). 
+\item {31}\% have obvious bars ($p_{\rm bar}>0.5$). This strong bar fraction is consistent with previous Galaxy Zoo based work (e.g. Masters et al. 2011, Masters et al. 2012), given the differences in sample selection. Weaker bars can be identified by $0.2<p_{\rm bar}<0.5$ (e.g. Willett et al. 2013, Skibba et al. 2011). Another {25}\% of the oblique spirals have weak bars by this definition, leaving just over {44\%} of oblique spirals without any clear sign of a bar feature (\ie~ $p_{\rm no bar}>0.8$) at the scales detectable by the SDSS images. 
 \end{itemize}
  
 % Examples of oblique galaxies with and without spiral arms and bars are shown in Figure \ref{examples2} for galaxies randomly selected from these groups at $z=0.03$. 
@@ -232,17 +233,22 @@ w_{\rm avg} = 0.0 ~p_{\rm loose} + 0.5 p_{\rm medium} + 1.0 p_{\rm tight}
 \ee
 such that these numbers increase from zero to one for either bulge sizes increasing, or arms getting tighter (note that I inverted the arms index from what Casteels et al. in prep. is using in order than a ``classic" Sa would have both values of 1.0, and a ``classic Sc" would have both values of zero). 
 
- We can plot these values only for the subsample of Galaxy Zoo galaxies which have reliable classifications for both - \ie. those galaxies with visible spiral arms. We select this sample (as advised by Willett et al. 2013) using cuts on the classification votes in answers earlier up the GZ2 tree, specifically $p_{\rm features} >  0.430$,  $p_{\rm notedgeon} >  0.715$,  $p_{\rm visiblearms} >  0.619$, and in addition require the number of people answering the question about spiral arm windiness to be at least 20. This gives a sample of $N=4471$ spiral galaxies in which we can ask how well bulge size correlates with spiral arm winding angles. 
+ We can plot these values only for the subsample of Galaxy Zoo galaxies which have reliable classifications for both - \ie. those galaxies with visible spiral arms. We select this sample (as advised by Willett et al. 2013) using cuts on the classification votes in answers earlier up the GZ2 tree, specifically $p_{\rm features} >  0.430$,  $p_{\rm notedgeon} >  0.715$,  $p_{\rm visiblearms} >  0.619$, and in addition require the number of people answering the question about spiral arm windiness to be at least 20. This gives a sample of {$N=4830$} spiral galaxies in which we can ask how well bulge size correlates with spiral arm winding angles. 
  
  We plot the measure of bulge size versus arm windiness for this sample in Figure \ref{bulgewinding}. In this volume limited ($M_r<-19$) sample of nearby ($z<0.035$) galaxies we find no strong correlation between bulge size and arm windiness. There is a slight tendency spirals with large bulges to have only tightly wound spirals (\ie. both $A_{\rm winding}$ and $B_{\rm size}$ are large), but for spirals with small bulges all values of spiral arm winding are found.  This is consistent with the previous literature, in that Sa galaxies (as defined by arm winding) have been discussed with both large and small bulges, while Sc galaxies (as defined by loose arms) are only ever discussed with small bulges. 
  
  \begin{figure}
 %\includegraphics[width=84mm]{barfraction_gasfraction.ps}
+<<<<<<< HEAD
 \includegraphics[width=80mm]{bulge_armwinding.pdf}
 \caption{We show here the location of 4830 nearby spiral galaxies on a plot of bulge size versus degree of arm winding as indicated by Galaxy Zoo classifications. The contours indicate regions of high density, with the numbers showing the contour level value and points shown at the lowest density.   \label{bulgewinding}}
+=======
+\includegraphics[width=80mm]{bulgewinding.png}
+\caption{We show here the location of {4830} nearby spiral galaxies on a plot of bulge size versus degree of arm winding as indicated by Galaxy Zoo classifications. The contours indicate regions of high density of points, with points themselves shown at the lowest density.   \label{bulgewinding}}
+>>>>>>> origin/master
 \end{figure}
 
- We have checked a closer sample ($0.01<z<0.25$), and also a sample of only the brightest spirals ($M_r < -21$) and find no significant difference in the result, except for a tendency for the brighter spirals to have larger bulges, as expected. 
+ We have checked a closer sample ($0.01<z<{0.025}$), and also a sample of only the brightest spirals ($M_r < -21$) and find no significant difference in the result, except for a tendency for the brighter spirals to have larger bulges, as expected. 
  
  We also split the sample based on bar classification, finding that spirals with strong bars ($p_{\rm bar}>0.5$)  were more likely to have larger bulges and less tightly wound spirals than those with no bars ($p_{\rm bar} < 0.2$), but there remains no clear correlation in either subgroup (see Figure \ref{bars}). The correlation between bars and spiral arm tightness is explored more in Casteels et al. in prep. 
  
@@ -282,11 +288,11 @@ We point the interested reader to the lower panel of Figure 19 from W13 which co
 
 \section{Summary}
 
-We present the morphological make-up of a sample of bright ($M_r <-19$), nearby ($0.01<z<0.035$) galaxies with classifications from the Galaxy Zoo project. We find that 94\% of these galaxies show the ``normal" morphologies found on the classic Hubble sequence, with 6\% classified as irregular, disturbed or merging. 
+We present the morphological make-up of a sample of bright ($M_r <-19$), nearby ($0.01<z<0.035$) galaxies with classifications from the Galaxy Zoo project. We find that {92\%} of these galaxies show the ``normal" morphologies found on the classic Hubble sequence, with {8\%} classified as irregular, disturbed or merging. 
 
 Among the ``normal" galaxies we find the typical correlation between magnitude, colour and morphology, such that ``smooth" (or ``early-type") galaxies are more common in the luminous red part of the diagram, where they make up ~50\% of the galaxies. Galaxies showing ``features" (or ``late-types") are found at all colours and magnitudes, and especially dominate the less luminous, bluer parts of the sample where they make up to two-third of the galaxies. 
 
- We find that the fraction of edge-on spirals is as expected for a sample of randomly orientated discs, and define a sample of ``oblique" spirals which are face-on enough for disc features to be identified. Among these 26\% have strong bars, and 50\% have no bars. The majority have clearly identified spirals (78\%), with only 7\% with a clear consensus for lacking spiral arms. These are likely S0 types with rings or bars. 
+ We find that the fraction of edge-on spirals is as expected for a sample of randomly orientated discs, and define a sample of ``oblique" spirals which are face-on enough for disc features to be identified. Among these {31\%} have strong bars, and {44\%} have no bars. The majority have clearly identified spirals ({86\%}), with only {5\%} with a clear consensus for lacking spiral arms. These are likely S0 types with rings or bars. 
 
 Among the spiral galaxies, we find little or no correlation between spiral arm winding tightness and bulge size. Although spirals with large bulges are found to typically have tightly wound  arms, those with small bulges are found with a much wider range of spiral arm pitch angle. We find that the presence of a strong bar tends to correspond to more loosely wound arms and larger bulges. 
 
