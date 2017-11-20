@@ -19,6 +19,11 @@ To do list (also see “Issues”):
    * Using B/D and calling it morphology: \bibitem[Lofthouse et al.(2017)]{2017arXiv170901519L} Lofthouse, E.~K., Kaviraj, S., Smith, D.~J.~B., \& Hardcastle, M.~J.\ 2017, arXiv:1709.01519 
 
 
+\bibitem[Freeman(1970)]{1970ApJ...160..811F} Freeman, K.~C.\ 1970, \apj, 160, 811 
+
+Freeman (1970) show in a sample of 36 nearby galaxies that the relative brightness of disc and bulge are only weakly correlated with morphological type - in particular there are S0 galaxies with both large and small bulges. 
+
+
  * Discussion of the significance of pitch angle 
 
 Notes
@@ -45,4 +50,7 @@ Hart et al. 2016:
 
 Dobbs & Baba 2015
 “Although the pitch angle is histor- ically used to classify galaxies according to the Hubble sequence, the differences in spiral arm shape, i.e. the pitch angle of the spiral arms appears to be most de- pendent on the maximum rotation velocity, and thus the local shear in the disc, rather than the global mass dis- tribution (Kennicutt, 1981; Kennicutt & Hodge, 1982; Garcia Gomez & Athanassoula, 1993; Seigar & James, 1998; Seigar et al., 2006). For example Figures 8 and 10 of Kennicutt (1981) show that the pitch angle corre- lates much better with the maximum rotational velocity than the properties of the bulge. However there is still considerable scatter (see Figure 7 of Kennicutt 1981)”
+
+From Mel’s red spiral paper: 
+most galaxies tend to ex- ist in one of two populations: blue, late-type disks exhibiting active star formation, and red, early-type ellipticals show- ing little to no signs of recent star formation (Strateva et al. 2001; Baldry et al. 2004; Correa et al. 2017).
 
