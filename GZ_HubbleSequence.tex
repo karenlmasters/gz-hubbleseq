@@ -335,12 +335,12 @@ The classic Hubble Sequence for spiral galaxies implies that bulge size and spir
 
 % In this context we define a ``Hubble Sequence" as a sequence of galaxies in which the average physical properties vary systematically from ``early" (defined as low current star formation rates) to ``late" (defined as high current star formation rates). We consider optical colour as a proxy for SF (what about dust)..... 
  
- In W13 we discussed how best to assigned $T$-types to Galaxy Zoo galaxies from the classification votes in GZ2. Both the votes for tightness of spirals arms, and bulge size were considered. In that work we concluded that modern expert visual classification of spiral Hubble types (based on comparison with either Nair \& Abraham 2010, or Baillard et al. 2013) was primarily based on bulge size, regardless of the tightness of spiral arms, with the best fitting relation (based on symbolic regression) being found to be
+ In W13 we discussed how best to assign $T$-types to Galaxy Zoo galaxies from the classification votes in GZ2. As is conventional, both the votes for tightness of spiral arms, and bulge size were considered. In that work we concluded that modern expert visual classification of spiral Hubble types (based on comparison with both Nair \& Abraham 2010 and Baillard et al. 2013) was primarily driven by bulge size, regardless of the tightness of spiral arms, with the best fitting relation (based on symbolic regression) being found to be
  \be
  T = 4.63 + 4.17~p_{\rm no bulge} - 2.27~p_{\rm obvious} - 8.38~p_{\rm dominant}
  \ee 
  
-We point the interested reader to the lower panel of Figure 19 from W13 which compares the predicted T-types from the above equation to the T-types assigned by Nair \& Abraham (2010). As was point out in W13, this, and other comparisons with recent expert visual classifications (e.g. the EFIGI sample of Baillard et al. 2011) demonstrates that the modern spiral Hubble sequence is defined by bulge size alone, with little reference to spiral arm tightness. 
+%We point the interested reader to the lower panel of Figure 19 from W13 which compares the predicted T-types from the above equation to the T-types assigned by Nair \& Abraham (2010). As was pointed out in W13, this, and other comparisons with recent expert visual classifications (e.g. the EFIGI sample of Baillard et al. 2011) demonstrates that the modern spiral Hubble sequence is defined by bulge size alone, with little reference to spiral arm tightness. 
 
 %\begin{figure}
 %\includegraphics[width=84mm]{barfraction_gasfraction.ps}
@@ -348,16 +348,24 @@ We point the interested reader to the lower panel of Figure 19 from W13 which co
 %\caption{Predicted T-type classifications as fit by Willett et al. 2013 for GZ2 galaxies shown versus their T-types from Nair \& Abraham 2010. Galaxies are colour coded by their morphologies as identified by NA10. Galaxies shown are only those with sufficient answers to characterize the arms winding and arms number GZ2 tasks, which selects heavily for late-type galaxies. This explains the lack of ellipticals in the plot, but highlights the fact that S0 galaxies do not agree well with the linear sequence. Reproduced from Willet et al. 2013.  \label{T-type}}
 %\end{figure}
 
-Models of spiral arm formation (see Dobbs \& Baba 2915 for a recent and comprehensive review) do not generally predict that spiral arm pitch angle should correlate with bulge size. For example, in swing amplification models, pitch angle should correlate best with spiral arm amplitude. In density wave models it should correlate best with the local shear in the disc (related to both disc mass, and the rotation speed - so total galaxy mass).  
 
-Todo: write coherently something about what the pitch angle of spiral arms tells us physically and why we should care if it correlates with bulge size. 
+Galaxy Zoo classifications of spiral arms were comprehensively studied by Hart et al 2016, who found a weak correlation between pitch angle and bulge size, in common with previous work which found that the tightness of the spiral arms are more strongly correlated with bulge total mass (Seigar et al. 2008; Berrier et al. 2013; Davis et al. 2015) rather than the ratio of bulge to disk masses. The Seiger et al. result is based on a small number of galaxies, each assumed to be a log-spiral. 
 
-From Hart et al 2016 "These properties are weakly related (Kennicutt 1981; Seigar \& James 1998): spiral arm tightness has been shown to be more strongly correlated with bulge total mass (Seigar et al. 2008; Berrier et al. 2013; Davis et al. 2015), rather than bulge-to-disk ratio."
-"In particular, the pitch angle of spiral arms is related to both the star-formation rate in spiral galaxies (Seigar 2005), and the central mass concentration of the spiral galaxies (Seigar et al. 2006, 2014)."
+%This result is somewhat surprising in the context of models of spiral structure (see Dobbs \& Baba 2015 for a recent review). For example, in swing amplification models, pitch angle should correlate best with spiral arm amplitude. In density wave models it should correlate best with the local shear in the disc (related to both disc mass, and the rotation speed - so total galaxy mass). Kennicutt (1981) suggest that the pitch angle correlates only in a 'general sense' with galaxy type. 
 
-From Dobbs \& Baba 2015  'Kennicutt (1981) indicates that the pitch angle correlates only in an average sense with galaxy type, and there is quite substantial spread.'
+Grand, Kawata \& Cropper 2013 used n-body simulations to investigate the relation between pitch angle and sheer rate. Noting that a correlation between central concentration and pitch angle is predicted by modal density wave theory (Lin \& Shu 1964), they find that this latter quantity is affected by the the sizee of any central mass concentration in the form of a bulge. T Our result, in Figure 5, does show a loose correlation between the two parameters but it is not tight, and may in fact be more complex than a linear relation. 
 
+%Models of spiral arm formation (see Dobbs \& Baba 2015 for a recent and comprehensive review) do not generally predict that spiral arm pitch angle should correlate with bulge size. For example, in swing amplification models, pitch angle should correlate best with spiral arm amplitude. In density wave models it should correlate best with the local shear in the disc (related to both disc mass, and the rotation speed - so total galaxy mass).  
 
+%Larger bulge - higher shear - tighter arms. 
+
+%Todo: write coherently something about what the pitch angle of spiral arms tells us physically and why we should care if it correlates with bulge size. 
+
+There is a growing consensus that spiral arms wind over time (D'Onghia et al. 2013). Pettitt \& Wadsley (2017) investigate the dependence of pattern speeds and wind-up rates on morphology, looking particular at changing bar and disk properties. However, bulge mass does vary between their models, and there is some suggestion that the wind-up rate can be affected by bulge mass. Their model of M33, which has a bulge-to-disk mass ratio almost an order of magnitude lower than the other systems, has the slowest wind-up rate. 
+
+If the rate of winding is genuinely dependent on the mass of the central concentration, then there is a natural explanation for our result. 
+
+Systems with large bulges would, quickly (formally, compared to the dynamical time), develop tighter spiral arms, leading to the absence of systems with large bulges and loose arms that we observe. We would, in this model, expect systems with smaller bulges to have a range of spiral arm types, just as observed. 
 
 \section{Summary}
 
@@ -369,7 +377,9 @@ Among the ``normal" galaxies we find the typical correlation between magnitude, 
 
 Among the spiral galaxies, we find little or no correlation between spiral arm winding tightness and bulge size. Although spirals with large bulges are found to typically have tightly wound  arms, those with small bulges are found with a much wider range of spiral arm pitch angle. We find that the presence of a strong bar tends to correspond to more loosely wound arms and larger bulges. 
 
- We demonstrate that modern expert visual classification has moved away from the classic ``Hubble sequence" which prioritised spiral arm angles over bulge size (leading to discussion of small bulged Sa galaxies) and is now predominately an ordered on central bulge size. Something about how this makes sense for a sequence on star formation since bulge size correlates so well with star formation in discs...? 
+ We demonstrate that modern expert visual classification has moved away from the classic ``Hubble sequence" which prioritised spiral arm angles over bulge size (leading to discussion of small bulged Sa galaxies) and is now predominately an ordered on central bulge size. Authors who make use of morphologies, particularly those drawn from different classifications, should take care that they understand well what is driving these classifications; our results suggest that the traditional morphological classifications do not map well onto current classifications. 
+ 
+ Something about how this makes sense for a sequence on star formation since bulge size correlates so well with star formation in discs...? 
  
   Some interpretation of what the degree of arm winding actually means. 
  
