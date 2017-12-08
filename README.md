@@ -19,12 +19,11 @@ To do list (also see “Issues”):
    * Using B/D and calling it morphology: \bibitem[Lofthouse et al.(2017)]{2017arXiv170901519L} Lofthouse, E.~K., Kaviraj, S., Smith, D.~J.~B., \& Hardcastle, M.~J.\ 2017, arXiv:1709.01519 
 
 
-\bibitem[Freeman(1970)]{1970ApJ...160..811F} Freeman, K.~C.\ 1970, \apj, 160, 811 
-
-Freeman (1970) show in a sample of 36 nearby galaxies that the relative brightness of disc and bulge are only weakly correlated with morphological type - in particular there are S0 galaxies with both large and small bulges. 
-
-
- * Discussion of the significance of pitch angle 
+ * Discussion of the significance of pitch angle (lack of) correlation with bulge size 
+ * Add references and acknowledgements from the literature search
+ * what value of H0 for the magnitudes? 
+ * Check numbers in Table 2.
+ * Add Kennicutt 1981, 1998
 
 Notes
 
