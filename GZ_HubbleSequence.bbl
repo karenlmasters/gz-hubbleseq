@@ -1,4 +1,4 @@
-\begin{thebibliography}{76}
+\begin{thebibliography}{79}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abazajian} {et~al.}(2009){Abazajian}, {Adelman-McCarthy},
@@ -121,6 +121,9 @@
 \bibitem[{{Freeman}(1970)}]{1970ApJ...160..811F}
 {Freeman}, K.~C. 1970, \apj, 160, 811
 
+\bibitem[{{Gadotti}(2009)}]{gadotti2009}
+{Gadotti}, D.~A. 2009, \mnras, 393, 1531
+
 \bibitem[{{Galloway} {et~al.}(2015){Galloway}, {Willett}, {Fortson},
   {Cardamone}, {Schawinski}, {Cheung}, {Lintott}, {Masters}, {Melvin}, \&
   {Simmons}}]{Galloway2015}
@@ -164,6 +167,11 @@
 \bibitem[{{Hubble}(1936)}]{Hubble1936}
 ---. 1936, {Realm of the Nebulae}
 
+\bibitem[{{Hunt} {et~al.}(2018){Hunt}, {Hong}, {Bovy}, {Kawata}, \&
+  {Grand}}]{hunt2018}
+{Hunt}, J. A.~S., {Hong}, J., {Bovy}, J., {Kawata}, D., \& {Grand}, R. J.~J.
+  2018, ArXiv e-prints, arXiv:1806.02832
+
 \bibitem[{{Jore} {et~al.}(1996){Jore}, {Broeils}, \& {Haynes}}]{Jore1996}
 {Jore}, K.~P., {Broeils}, A.~H., \& {Haynes}, M.~P. 1996, \aj, 112, 438
 
@@ -171,7 +179,7 @@
 Kendall, S., Kennicutt, R.~C., \& Clarke, C. 2011, Monthly Notices of the Royal
   Astronomical Society, 414, 538
 
-\bibitem[{{Kennicutt}(1981)}]{Kennicutt1981}
+\bibitem[{{Kennicutt}(1981)}]{kennicutt1981}
 {Kennicutt}, Jr., R.~C. 1981, \aj, 86, 1847
 
 \bibitem[{{Kennicutt}(1998)}]{Kennicutt1998}
@@ -179,6 +187,9 @@ Kendall, S., Kennicutt, R.~C., \& Clarke, C. 2011, Monthly Notices of the Royal
 
 \bibitem[{{Kormendy} \& {Bender}(2012)}]{Kormendy2012}
 {Kormendy}, J., \& {Bender}, R. 2012, \apjs, 198, 2
+
+\bibitem[{{Kormendy} \& {Kennicutt}(2004)}]{kormendykennicutt2004}
+{Kormendy}, J., \& {Kennicutt}, Jr., R.~C. 2004, \araa, 42, 603
 
 \bibitem[{{Kruk} {et~al.}(2017){Kruk}, {Lintott}, {Simmons}, {Bamford},
   {Cardamone}, {Fortson}, {Hart}, {H{\"a}u{\ss}ler}, {Masters}, {Nichol},

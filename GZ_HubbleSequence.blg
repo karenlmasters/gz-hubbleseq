@@ -1,9 +1,14 @@
 This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: GZ_HubbleSequence.aux
+Case mismatch error between cite keys Kennicutt1981 and kennicutt1981
+---line 98 of file GZ_HubbleSequence.aux
+ : \citation{1970ApJ...160..811F,Kennicutt1981
+ :                                            }
+I'm skipping whatever remains of this command
 The style file: apj.bst
 Database file #1: gzreferences.bib
-Warning--I didn't find a database entry for "W13"
+Warning--I didn't find a database entry for "Willett13"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--can't use both author and editor fields in Buta2013
 Warning--empty publisher in Buta2013
@@ -11,45 +16,45 @@ Warning--empty publisher in 1991rc3..book.....D
 Warning--empty publisher in Hubble1936
 Warning--empty publisher in Sandage1961
 Warning--empty publisher in SandageBedke1994
-You've used 76 entries,
+You've used 79 entries,
             3010 wiz_defined-function locations,
-            1146 strings with 28114 characters,
-and the built_in function-call counts, 39375 in all, are:
-= -- 2856
-> -- 3530
-< -- 30
-+ -- 1160
-- -- 1229
-* -- 3688
-:= -- 7732
-add.period$ -- 76
-call.type$ -- 76
-change.case$ -- 443
-chr.to.int$ -- 74
-cite$ -- 82
-duplicate$ -- 1412
-empty$ -- 2076
-format.name$ -- 1346
-if$ -- 7578
+            1159 strings with 28625 characters,
+and the built_in function-call counts, 40836 in all, are:
+= -- 2986
+> -- 3610
+< -- 32
++ -- 1187
+- -- 1258
+* -- 3804
+:= -- 7991
+add.period$ -- 79
+call.type$ -- 79
+change.case$ -- 463
+chr.to.int$ -- 77
+cite$ -- 85
+duplicate$ -- 1467
+empty$ -- 2171
+format.name$ -- 1379
+if$ -- 7881
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 76
-newline$ -- 232
-num.names$ -- 305
-pop$ -- 485
+missing$ -- 79
+newline$ -- 241
+num.names$ -- 317
+pop$ -- 507
 preamble$ -- 1
-purify$ -- 443
+purify$ -- 463
 quote$ -- 0
-skip$ -- 1190
+skip$ -- 1251
 stack$ -- 0
-substring$ -- 1545
+substring$ -- 1650
 swap$ -- 7
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 669
+type$ -- 696
 warning$ -- 6
-while$ -- 266
+while$ -- 278
 width$ -- 0
-write$ -- 758
-(There were 7 warnings)
+write$ -- 787
+(There was 1 error message)
