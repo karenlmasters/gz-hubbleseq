@@ -50,19 +50,19 @@
 \usepackage{color}
 \begin{document}
 
-\title[Galaxy Zoo: Unwinding the Winding Problem]{Galaxy Zoo: Unwinding the Winding Problem - Observations of Spiral Bulge Size and Arm Windiness Suggest Many Spirals are Winding}
-\author[K.L. Masters \etal]{Karen L. Masters$^{1,2}$, Chris Lintott$^{3}$, Ross E. Hart$^{4}$, Sandor J. Kruk$^{3}$, \newauthor Rebecca J. Smethurst$^{4}$,  Kevin V. Casteels$^5$, Bill Keel$^6$, Brooke Simmons$^7$, \newauthor  Kyle Willett$^{8,9}$  \\
+\title[Galaxy Zoo: Unwinding the Winding Problem]{Galaxy Zoo: Unwinding the Winding Problem - Observations of Spiral Bulge Size and Arm Windiness Suggest Most Spirals are Winding}
+\author[K.L. Masters \etal]{Karen L. Masters$^{1,2}$, Chris Lintott$^{3}$, Ross E. Hart$^{4}$, Sandor J. Kruk$^{3}$, \newauthor Rebecca J. Smethurst$^{4}$,  Kevin V. Casteels$^5$, Bill Keel$^6$, Brooke Simmons$^7$\\ %, \newauthor  Kyle Willett$^{8,9}$  \\
 $^1$Haverford College, Department of Physics and Astronomy, 370 Lancaster Avenue, Haverford, Pennsylvania 19041, USA\\
 $^2$Institute for Cosmology and Gravitation, University of Portsmouth, Dennis Sciama Building, Burnaby Road, Portsmouth, PO1 3FX, UK \\
  $^{3}$Oxford Astrophysics, Department of Physics, University of Oxford, Denys Wilkinson Building, Keble Road, Oxford, OX1 3RH, UK\\
  $^4$Centre for Astronomy \& Particle Theory, University of Nottingham, University Park, Nottingham, NG7 2RD, UK\\
- $^5$ Department of Physics and Astronomy, University of Victoria, Victoria, BC V8P 1A1, Canada\\
+ $^5$Department of Physics and Astronomy, University of Victoria, Victoria, BC V8P 1A1, Canada\\
  $^6$Department of Physics \& Astronomy, 206 Gallalee Hall, 514 University Blvd., University of Alabama, Tuscaloosa, AL 35487-0234, USA\\
- $^7$ San Diego \\
- $^8$ Amazon (?)\\ 
- $^9$School of Physics and Astronomy, University of Minnesota, Minneapolis, MN 55455, USA\\
+ $^7$Center for Astrophysics and Space Sciences (CASS), Department of Physics, University of California, San Diego, CA 92093, USA \\
+% $^8$ Amazon (?)\\ 
+ %$^9$School of Physics and Astronomy, University of Minnesota, Minneapolis, MN 55455, USA\\
 \\
- $^*$This publication has been made possible by the participation of more than 200,000 volunteers in the Galaxy Zoo project. \\ Their contributions are individually acknowledged at \texttt{http://www.galaxyzoo.org/volunteers}. \\
+ $^*$This publication has been made possible by the participation of hundreds of thousands of volunteers in the Galaxy Zoo project. \\ Their contributions are individually acknowledged at \texttt{http://authors.galaxyzoo.org}. \\
 \\
 {\tt E-mail: klmasters@haverford.edu}
  }
@@ -275,25 +275,26 @@ w_{\rm avg} =  0.5p_{\rm medium} + 1.0p_{\rm tight}.
 This has the advantage of providing a single number measuring the tightness of the spiral arms as seen by Galaxy Zoo users, and will be $w_{\rm avg} = 1.0$ where the arms are most tightly wound and $w_{\rm avg} = 0.0$ where they are very loose. We compare these estimates with pitch angles measured by the SpArcFiRe method \citep{DavisHayes2014} in Figure \ref{pitch} (see \citealt{Hart2017b} for more details). This demonstrates how well arm winding as identified by Galaxy Zoo users correlates with pitch angle for those galaxies where pitch angle can be measured. The best fit trend gives 
 \be
 \label{eqn:pitch}
-\Psi = 10.95 w_{\rm avg} + 14.73,
+\Psi =  (14.7\pm0.3)^\circ + (11.0\pm0.7)^\circ w'_{\rm avg}, 
 \ee
 where $\Psi$ is the pitch angle in degrees. This provides a way to estimate numerical pitch angles from the GZ2 visual descriptions. 
 
 \begin{figure*}
-\includegraphics[width=140mm]{rossfigure.png}
-\caption{(a) Galaxy Zoo winding score from Eq. \ref{eqn:winding} vs. measured pitch angles from SpArcFiRe for all spirals with at least one reliably identified arc ($N=2365$; see \citealt{DavisHayes2014} and \citealt{Hart2017}). (b) Galaxy Zoo bulge prominence from Eq. \ref{eqn:bulge} vs. SDSS $r$-band bulge luminosity as measured from \citet{Simard2011} for a sample of $N=6887$ galaxies with both measures (see  \citealt{Hart2017} for details of the sample selection). The grey contours indicate where 20, 40, 60 and 80\% of the galaxies lie in each plot and the dashed lines show the best fit straight line for each plot. The points show binned means with errors bars indicating the error on the mean (\ie the scatter divided by $\sqrt{N}$.  \label{pitch}}
+\includegraphics[width=140mm]{gz2_vs_psi_and_bulge_spread.pdf}
+\caption{(a) Galaxy Zoo winding score from Eq. \ref{eqn:winding} vs. measured pitch angles from SpArcFiRe for all spirals with at least one reliably identified arc ($N=2365$; see \citealt{DavisHayes2014} and \citealt{Hart2017}). (b) Galaxy Zoo bulge prominence from Eq. \ref{eqn:bulge} vs. SDSS $r$-band bulge luminosity as measured from \citet{Simard2011} for a sample of $N=6887$ galaxies with both measures (see  \citealt{Hart2017} for details of the sample selection). The grey contours indicate where 20, 40, 60 and 80\% of the galaxies lie in each plot and the dashed lines show the best fit straight line for each plot. The points show binned means with errors bars indicating the scatter. %error on the mean (\ie the scatter divided by $\sqrt{N}$.  
+\label{pitch}}
 \end{figure*}
 
-On the right hand side of Figure \ref{pitch} we also plot a measure of bulge size from GZ2 against the SDSS r-band luminosity of bulges as measured by \citet{Simard2011}.  We define a bulge prominence from GZ2 using
+We define a bulge prominence from GZ2 using
 \be
 \label{eqn:bulge}
 B_{\rm avg} = 0.2p_{\rm  just noticeable} + 0.8p_{\rm obvious}+ 1.0p_{\rm dominant},
 \ee
-where $p_{\rm  just noticeable}$, $p_{\rm obvious}$ and $p_{\rm dominant}$ are the fractions of users who indicated the bulge was ``just noticeable", ``obvious" or ``domninent" respectively. This provides a single number, which ranges from $B_{\rm avg} = 0.0$ for galaxies with no bulge component, to $B_{\rm avg} = 1.0$ for spiral galaxies with dominant bulges, although we note there is no aprior reason to select these co-efficients exactly. As can be seen in Figure \ref{pitch}, this measures of bulge size correlates well with bulge total luminosity, and the best fit is 
+where $p_{\rm  just noticeable}$, $p_{\rm obvious}$ and $p_{\rm dominant}$ are the fractions of users who indicated the bulge was ``just noticeable", ``obvious" or ``domninent" respectively. This provides a single number, which ranges from $B_{\rm avg} = 0.0$ for galaxies with no bulge component, to $B_{\rm avg} = 1.0$ for spiral galaxies with dominant bulges, although we note there is no aprior reason to select these co-efficients exactly. On the right hand side of Figure \ref{pitch} we plot this measure of bulge prominence from GZ2 against the SDSS r-band luminosity of bulges as measured by \citet{Simard2011}. Curiously this is the quantity in \citet{Simard2011} which correlates most strongly wiht GZ2 bulge prominence (\ie. not $B/T$).  The best fit trend is 
 \be 
-L_{\rm r,bulge} = 1.54 B_{\rm avg}  + 8.63.
+L_{\rm r,bulge} = 8.63\pm0.01{\rm [units]}  + (1.54\pm0.03 {\rm [units]}) B_{\rm avg}.
 \ee
-Some of the scatter in this plot will be caused by the bulge-disc only models of \citet{Simard2011} being fit to galaxies which also host bars. \citet{Kruk2018} demonstrated that in bulge+disc+bar decompositions, there was an even stronger correlations of $B/T$ with Galaxy Zoo consensus classifications of bulge size. 
+Some of the scatter in this plot will be caused by the bulge-disc only models of \citet{Simard2011} being fit to galaxies which also host bars. \citet{Kruk2018} demonstrated that in bulge+disc+bar decompositions, there was a stronger correlations of $B/T$ with Galaxy Zoo consensus classifications of bulge size. 
  
 % Examples of oblique galaxies with and without spiral arms and bars are shown in Figure \ref{examples2} for galaxies randomly selected from these groups at $z=0.03$. 
 %\begin{figure}
@@ -395,7 +396,7 @@ Among the spiral galaxies, we find little or no correlation between spiral arm w
 
 This publication has been made possible by the participation of more than 200,000 volunteers in the Galaxy Zoo project. Their contributions are individually acknowledged at \texttt{http://authors.galaxyzoo.org}.  We particularly wish to acknowledge the contributions of volunteers who participated in the Galaxy Zoo literature search activity (described at {\tt http://blog.galaxyzoo.org/2017/09/28/ galaxy-zoo-literature-search/}). These volunteers helped the authors identify literature examples of certain use of classification systems of galaxies \comment{consider co-authorship for these people}. Finally we acknowledge the numerous contributors to the Galaxy Zoo Forum NGC Catalogue List ({\tt http://www.galaxyzooforum.org/index.php?topic=280028.0}) who made finding SDSS images of NGC galaxies so easy. Galaxy Zoo 2 was developed with the help of a grant from The Leverhulme Trust.
 
-We thank Hugh Dickinson of the Galaxy Zoo Science team for helpful comments on an advanced draft. 
+We thank Hugh Dickinson of the Galaxy Zoo Science team for helpful comments on an advanced draft, and Kyle Willett (formerly of the Galaxy Zoo Science team) for significant contributions in the early stages of this work. 
 
 Funding for the SDSS and SDSS-II has been provided by the Alfred P. Sloan Foundation, the Participating Institutions, the National Science Foundation, the U.S. Department of Energy, the National Aeronautics and Space Administration, the Japanese Monbukagakusho, the Max Planck Society, and the Higher Education Funding Council for England. The SDSS Web Site is http://www.sdss.org/. 
 
