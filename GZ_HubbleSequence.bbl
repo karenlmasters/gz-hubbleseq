@@ -1,4 +1,4 @@
-\begin{thebibliography}{79}
+\begin{thebibliography}{81}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abazajian} {et~al.}(2009){Abazajian}, {Adelman-McCarthy},
@@ -255,6 +255,14 @@ Kendall, S., Kennicutt, R.~C., \& Clarke, C. 2011, Monthly Notices of the Royal
 \bibitem[{{Roberts} \& {Haynes}(1994)}]{RobertsHaynes1994}
 {Roberts}, M.~S., \& {Haynes}, M.~P. 1994, \araa, 32, 115
 
+\bibitem[{{Ross} {et~al.}(2011){Ross}, {Ho}, {Cuesta}, {Tojeiro}, {Percival},
+  {Wake}, {Masters}, {Nichol}, {Myers}, {de Simoni}, {Seo},
+  {Hern{\'a}ndez-Monteagudo}, {Crittenden}, {Blanton}, {Brinkmann}, {da Costa},
+  {Guo}, {Kazin}, {Maia}, {Maraston}, {Padmanabhan}, {Prada}, {Ramos},
+  {Sanchez}, {Schlafly}, {Schlegel}, {Schneider}, {Skibba}, {Thomas}, {Weaver},
+  {White}, \& {Zehavi}}]{Ross2011}
+{Ross}, A.~J., {Ho}, S., {Cuesta}, A.~J., {et~al.} 2011, \mnras, 417, 1350
+
 \bibitem[{{Sandage}(1961)}]{Sandage1961}
 {Sandage}, A. 1961, {The Hubble Atlas of Galaxies}
 
@@ -264,6 +272,10 @@ Sandage, A. 2005, Annual Review of Astronomy and Astrophysics, 43, 581
 \bibitem[{{Sandage} \& {Bedke}(1994)}]{SandageBedke1994}
 {Sandage}, A., \& {Bedke}, J. 1994, {The Carnegie Atlas of Galaxies. Volumes I,
   II.}
+
+\bibitem[{{Sandage} \& {Tammann}(1981)}]{sandagetammann1981}
+{Sandage}, A., \& {Tammann}, G.~A. 1981, {A Revised Shapley-Ames Catalog of
+  Bright Galaxies}
 
 \bibitem[{{Schawinski} {et~al.}(2009){Schawinski}, {Lintott}, {Thomas},
   {Sarzi}, {Andreescu}, {Bamford}, {Kaviraj}, {Khochfar}, {Land}, {Murray},
