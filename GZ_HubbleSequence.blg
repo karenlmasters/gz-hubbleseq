@@ -3,6 +3,8 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: GZ_HubbleSequence.aux
 The style file: apj.bst
 Database file #1: gzreferences.bib
+Warning--I didn't find a database entry for "Kennicitt1981"
+Warning--I didn't find a database entry for "SandageTamman1981"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--can't use both author and editor fields in Buta2013
 Warning--empty publisher in Buta2013
@@ -11,45 +13,45 @@ Warning--empty publisher in Hubble1936
 Warning--empty publisher in Sandage1961
 Warning--empty publisher in SandageBedke1994
 Warning--empty publisher in sandagetammann1981
-You've used 81 entries,
+You've used 82 entries,
             3010 wiz_defined-function locations,
-            1167 strings with 29515 characters,
-and the built_in function-call counts, 42038 in all, are:
-= -- 3056
-> -- 3745
+            1175 strings with 29992 characters,
+and the built_in function-call counts, 42562 in all, are:
+= -- 3089
+> -- 3804
 < -- 33
-+ -- 1231
-- -- 1304
-* -- 3926
-:= -- 8230
-add.period$ -- 81
-call.type$ -- 81
-change.case$ -- 474
-chr.to.int$ -- 79
-cite$ -- 88
-duplicate$ -- 1504
-empty$ -- 2231
-format.name$ -- 1430
-if$ -- 8107
++ -- 1250
+- -- 1325
+* -- 3979
+:= -- 8340
+add.period$ -- 82
+call.type$ -- 82
+change.case$ -- 479
+chr.to.int$ -- 80
+cite$ -- 89
+duplicate$ -- 1522
+empty$ -- 2253
+format.name$ -- 1452
+if$ -- 8202
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 81
-newline$ -- 247
-num.names$ -- 325
-pop$ -- 522
+missing$ -- 82
+newline$ -- 250
+num.names$ -- 329
+pop$ -- 529
 preamble$ -- 1
-purify$ -- 474
+purify$ -- 479
 quote$ -- 0
-skip$ -- 1284
+skip$ -- 1296
 stack$ -- 0
-substring$ -- 1685
+substring$ -- 1696
 swap$ -- 7
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 711
+type$ -- 720
 warning$ -- 7
-while$ -- 284
+while$ -- 286
 width$ -- 0
-write$ -- 806
-(There were 7 warnings)
+write$ -- 815
+(There were 9 warnings)
