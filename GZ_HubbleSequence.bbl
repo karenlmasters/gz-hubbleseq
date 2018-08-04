@@ -1,4 +1,4 @@
-\begin{thebibliography}{83}
+\begin{thebibliography}{102}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abazajian} {et~al.}(2009){Abazajian}, {Adelman-McCarthy},
@@ -42,6 +42,33 @@
   {Dye}, {Kleinheinrich}, {Wisotzki}, \& {McIntosh}}]{Bell2004}
 {Bell}, E.~F., {Wolf}, C., {Meisenheimer}, K., {et~al.} 2004, \apj, 608, 752
 
+\bibitem[{{Bryant} {et~al.}(2015){Bryant}, {Owers}, {Robotham}, {Croom},
+  {Driver}, {Drinkwater}, {Lorente}, {Cortese}, {Scott}, {Colless}, {Schaefer},
+  {Taylor}, {Konstantopoulos}, {Allen}, {Baldry}, {Barnes}, {Bauer},
+  {Bland-Hawthorn}, {Bloom}, {Brooks}, {Brough}, {Cecil}, {Couch}, {Croton},
+  {Davies}, {Ellis}, {Fogarty}, {Foster}, {Glazebrook}, {Goodwin}, {Green},
+  {Gunawardhana}, {Hampton}, {Ho}, {Hopkins}, {Kewley}, {Lawrence},
+  {Leon-Saval}, {Leslie}, {McElroy}, {Lewis}, {Liske}, {L{\'o}pez-S{\'a}nchez},
+  {Mahajan}, {Medling}, {Metcalfe}, {Meyer}, {Mould}, {Obreschkow}, {O'Toole},
+  {Pracy}, {Richards}, {Shanks}, {Sharp}, {Sweet}, {Thomas}, {Tonini}, \&
+  {Walcher}}]{Bryant2015}
+{Bryant}, J.~J., {Owers}, M.~S., {Robotham}, A.~S.~G., {et~al.} 2015, \mnras,
+  447, 2857
+
+\bibitem[{{Bundy} {et~al.}(2015){Bundy}, {Bershady}, {Law}, {Yan}, {Drory},
+  {MacDonald}, {Wake}, {Cherinka}, {S{\'a}nchez-Gallego}, {Weijmans}, {Thomas},
+  {Tremonti}, {Masters}, {Coccato}, {Diamond-Stanic}, {Arag{\'o}n-Salamanca},
+  {Avila-Reese}, {Badenes}, {Falc{\'o}n-Barroso}, {Belfiore}, {Bizyaev},
+  {Blanc}, {Bland-Hawthorn}, {Blanton}, {Brownstein}, {Byler}, {Cappellari},
+  {Conroy}, {Dutton}, {Emsellem}, {Etherington}, {Frinchaboy}, {Fu}, {Gunn},
+  {Harding}, {Johnston}, {Kauffmann}, {Kinemuchi}, {Klaene}, {Knapen},
+  {Leauthaud}, {Li}, {Lin}, {Maiolino}, {Malanushenko}, {Malanushenko}, {Mao},
+  {Maraston}, {McDermid}, {Merrifield}, {Nichol}, {Oravetz}, {Pan}, {Parejko},
+  {Sanchez}, {Schlegel}, {Simmons}, {Steele}, {Steinmetz}, {Thanjavur},
+  {Thompson}, {Tinker}, {van den Bosch}, {Westfall}, {Wilkinson}, {Wright},
+  {Xiao}, \& {Zhang}}]{Bundy2015}
+{Bundy}, K., {Bershady}, M.~A., {Law}, D.~R., {et~al.} 2015, \apj, 798, 7
+
 \bibitem[{{Buta}(2013)}]{Buta2013}
 {Buta}, R.~J. 2013, {Galaxy Morphology}, ed. T.~D. {Oswalt} \& W.~C. {Keel}, 1
 
@@ -59,6 +86,18 @@
   {Lablanche}, {Morganti}, {Naab}, {Oosterloo}, {Sarzi}, {Scott}, {Weijmans},
   \& {Young}}]{2011MNRAS.416.1680C}
 ---. 2011{\natexlab{b}}, \mnras, 416, 1680
+
+\bibitem[{{Casteels} {et~al.}(2013){Casteels}, {Bamford}, {Skibba}, {Masters},
+  {Lintott}, {Keel}, {Schawinski}, {Nichol}, \& {Smith}}]{Casteels2013}
+{Casteels}, K.~R.~V., {Bamford}, S.~P., {Skibba}, R.~A., {et~al.} 2013, \mnras,
+  429, 1051
+
+\bibitem[{{Cheung} {et~al.}(2012){Cheung}, {Faber}, {Koo}, {Dutton}, {Simard},
+  {McGrath}, {Huang}, {Bell}, {Dekel}, {Fang}, {Salim}, {Barro}, {Bundy},
+  {Coil}, {Cooper}, {Conselice}, {Davis}, {Dom{\'{\i}}nguez}, {Kassin},
+  {Kocevski}, {Koekemoer}, {Lin}, {Lotz}, {Newman}, {Phillips}, {Rosario},
+  {Weiner}, \& {Willmer}}]{Cheung2012}
+{Cheung}, E., {Faber}, S.~M., {Koo}, D.~C., {et~al.} 2012, \apj, 760, 131
 
 \bibitem[{{Cheung} {et~al.}(2013){Cheung}, {Athanassoula}, {Masters}, {Nichol},
   {Bosma}, {Bell}, {Faber}, {Koo}, {Lintott}, {Melvin}, {Schawinski}, {Skibba},
@@ -118,13 +157,29 @@
   {Szalay}, {Vogt}, \& {Yan}}]{Faber2007}
 {Faber}, S.~M., {Willmer}, C.~N.~A., {Wolf}, C., {et~al.} 2007, \apj, 665, 265
 
+\bibitem[{{Fang} {et~al.}(2013){Fang}, {Faber}, {Koo}, \& {Dekel}}]{Fang2013}
+{Fang}, J.~J., {Faber}, S.~M., {Koo}, D.~C., \& {Dekel}, A. 2013, \apj, 776, 63
+
 \bibitem[{{Fisher} \& {Drory}(2008)}]{FisherDrory}
 {Fisher}, D.~B., \& {Drory}, N. 2008, \aj, 136, 773
 
-\bibitem[{{Foster} {et~al.}(2018){Foster}, {van de Sande}, {Cortese}, {Croom},
-  {Bland-Hawthorn}, {Brough}, {Bryant}, {Goodwin}, {Lawrence}, {Lorente},
-  {Medling}, {Owers}, {Richards}, \& {Scott}}]{2018arXiv180711547F}
-{Foster}, C., {van de Sande}, J., {Cortese}, L., {et~al.} 2018, ArXiv e-prints
+\bibitem[{{Forgan} {et~al.}(2018){Forgan}, {Ram{\'o}n-Fox}, \&
+  {Bonnell}}]{Forgan2018}
+{Forgan}, D.~H., {Ram{\'o}n-Fox}, F.~G., \& {Bonnell}, I.~A. 2018, \mnras, 476,
+  2384
+
+\bibitem[{{Foster} {et~al.}(2018{\natexlab{a}}){Foster}, {van de Sande},
+  {Cortese}, {Croom}, {Bland-Hawthorn}, {Brough}, {Bryant}, {Goodwin},
+  {Lawrence}, {Lorente}, {Medling}, {Owers}, {Richards}, \&
+  {Scott}}]{2018arXiv180711547F}
+{Foster}, C., {van de Sande}, J., {Cortese}, L., {et~al.} 2018{\natexlab{a}},
+  ArXiv e-prints
+
+\bibitem[{{Foster} {et~al.}(2018{\natexlab{b}}){Foster}, {van de Sande},
+  {Cortese}, {Croom}, {Bland-Hawthorn}, {Brough}, {Bryant}, {Goodwin},
+  {Lawrence}, {Lorente}, {Medling}, {Owers}, {Richards}, \&
+  {Scott}}]{Foster2018}
+---. 2018{\natexlab{b}}, ArXiv e-prints
 
 \bibitem[{{Freeman}(1970)}]{1970ApJ...160..811F}
 {Freeman}, K.~C. 1970, \apj, 160, 811
@@ -145,6 +200,14 @@
 \bibitem[{{Graham} \& {Driver}(2005)}]{2005PASA...22..118G}
 {Graham}, A.~W., \& {Driver}, S.~P. 2005, PASA, 22, 118
 
+\bibitem[{{Grand} {et~al.}(2013){Grand}, {Kawata}, \& {Cropper}}]{Grand2013}
+{Grand}, R.~J.~J., {Kawata}, D., \& {Cropper}, M. 2013, \aap, 553, A77
+
+\bibitem[{Hart {et~al.}(2017)Hart, Bamford, Casteels, Kruk, Lintott, \&
+  Masters}]{Hart2017a}
+Hart, R.~E., Bamford, S.~P., Casteels, K. R.~V., {et~al.} 2017, \mnras, 468,
+  1850
+
 \bibitem[{{Hart} {et~al.}(2018){Hart}, {Bamford}, {Keel}, {Kruk}, {Masters},
   {Simmons}, \& {Smethurst}}]{Hart2018}
 {Hart}, R.~E., {Bamford}, S.~P., {Keel}, W.~C., {et~al.} 2018, \mnras
@@ -155,16 +218,10 @@
 {Hart}, R.~E., {Bamford}, S.~P., {Willett}, K.~W., {et~al.} 2016, \mnras, 461,
   3663
 
-\bibitem[{{Hart} {et~al.}(2017{\natexlab{a}}){Hart}, {Bamford}, {Hayes},
-  {Cardamone}, {Keel}, {Kruk}, {Lintott}, {Masters}, {Simmons}, \&
-  {Smethurst}}]{Hart2017}
-{Hart}, R.~E., {Bamford}, S.~P., {Hayes}, W.~B., {et~al.} 2017{\natexlab{a}},
-  \mnras, 472, 2263
-
-\bibitem[{{Hart} {et~al.}(2017{\natexlab{b}}){Hart}, {Bamford}, {Hayes},
-  {Cardamone}, {Keel}, {Kruk}, {Lintott}, {Masters}, {Simmons}, \&
-  {Smethurst}}]{Hart2017b}
----. 2017{\natexlab{b}}, \mnras, 472, 2263
+\bibitem[{{Hart} {et~al.}(2017){Hart}, {Bamford}, {Hayes}, {Cardamone}, {Keel},
+  {Kruk}, {Lintott}, {Masters}, {Simmons}, \& {Smethurst}}]{Hart2017b}
+{Hart}, R.~E., {Bamford}, S.~P., {Hayes}, W.~B., {et~al.} 2017, \mnras, 472,
+  2263
 
 \bibitem[{{Hogg} {et~al.}(1993){Hogg}, {Roberts}, \& {Sandage}}]{Hogg1993}
 {Hogg}, D.~E., {Roberts}, M.~S., \& {Sandage}, A. 1993, \aj, 106, 907
@@ -179,6 +236,14 @@
   {Grand}}]{hunt2018}
 {Hunt}, J. A.~S., {Hong}, J., {Bovy}, J., {Kawata}, D., \& {Grand}, R. J.~J.
   2018, ArXiv e-prints, arXiv:1806.02832
+
+\bibitem[{{Hunter}(2007)}]{Hunter:2007}
+{Hunter}, J.~D. 2007, Computing In Science \& Engineering, 90
+
+\bibitem[{{Jones} {et~al.}(2001){Jones}, {Oliphant}, {Peterson}, \&
+  {Others}}]{citescipy}
+{Jones}, E., {Oliphant}, T., {Peterson}, P., \& {Others}. 2001, {SciPy}: Open
+  source scientific tools for {Python}, [Online; accessed 2016-01-15]
 
 \bibitem[{{Jore} {et~al.}(1996){Jore}, {Broeils}, \& {Haynes}}]{Jore1996}
 {Jore}, K.~P., {Broeils}, A.~H., \& {Haynes}, M.~P. 1996, \aj, 112, 438
@@ -230,6 +295,11 @@ Kendall, S., Kennicutt, R.~C., \& Clarke, C. 2011, Monthly Notices of the Royal
 {Lintott}, C.~J., {Schawinski}, K., {Slosar}, A., {et~al.} 2008, \mnras, 389,
   1179
 
+\bibitem[{{Martig} {et~al.}(2009){Martig}, {Bournaud}, {Teyssier}, \&
+  {Dekel}}]{Martig2009}
+{Martig}, M., {Bournaud}, F., {Teyssier}, R., \& {Dekel}, A. 2009, \apj, 707,
+  250
+
 \bibitem[{{Masters} {et~al.}(2010){Masters}, {Mosleh}, {Romer}, {Nichol},
   {Bamford}, {Schawinski}, {Lintott}, {Andreescu}, {Campbell}, {Crowcroft},
   {Doyle}, {Edmondson}, {Murray}, {Raddick}, {Slosar}, {Szalay}, \&
@@ -248,11 +318,23 @@ Kendall, S., Kennicutt, R.~C., \& Clarke, C. 2011, Monthly Notices of the Royal
 {Masters}, K.~L., {Nichol}, R.~C., {Haynes}, M.~P., {et~al.} 2012, \mnras, 424,
   2180
 
+\bibitem[{{Merrifield} {et~al.}(2006){Merrifield}, {Rand}, \&
+  {Meidt}}]{Merrifield2006}
+{Merrifield}, M.~R., {Rand}, R.~J., \& {Meidt}, S.~E. 2006, \mnras, 366, L17
+
 \bibitem[{{Nair} \& {Abraham}(2010)}]{Nair2010a}
 {Nair}, P.~B., \& {Abraham}, R.~G. 2010, \apjs, 186, 427
 
+\bibitem[{{Oort}(1962)}]{Oort1962}
+{Oort}, J.~H. 1962, in Interstellar Matter in Galaxies, ed. L.~{Woltjer}
+  (Benjamin Inc., New York), 234
+
 \bibitem[{{Park} \& {Choi}(2005)}]{ParkChoi2005}
 {Park}, C., \& {Choi}, Y.-Y. 2005, \apjl, 635, L29
+
+\bibitem[{{P\'erez} \& {Granger}(2007)}]{PER-GRA:2007}
+{P\'erez}, F., \& {Granger}, B.~E. 2007, Computing in Science and Engineering,
+  9
 
 \bibitem[{{Pettitt} \& {Wadsley}(2018)}]{PettittWadsley2018}
 {Pettitt}, A.~R., \& {Wadsley}, J.~W. 2018, \mnras, 474, 5645
@@ -262,6 +344,22 @@ Kendall, S., Kennicutt, R.~C., \& Clarke, C. 2011, Monthly Notices of the Royal
 
 \bibitem[{{Roberts} \& {Haynes}(1994)}]{RobertsHaynes1994}
 {Roberts}, M.~S., \& {Haynes}, M.~P. 1994, \araa, 32, 115
+
+\bibitem[{{Robitaille} {et~al.}(2013){Robitaille}, {Tollerud}, {Greenfield},
+  {Droettboom}, {Bray}, {Aldcroft}, {Davis}, {Ginsburg}, {Price-Whelan},
+  {Kerzendorf}, {Conley}, {Crighton}, {Barbary}, {Muna}, {Ferguson},
+  {Grollier}, {Parikh}, {Nair}, {Unther}, {Deil}, {Woillez}, {Conseil},
+  {Kramer}, {Turner}, {Singer}, {Fox}, {Weaver}, {Zabalza}, {Edwards}, {Azalee
+  Bostroem}, {Burke}, {Casey}, {Crawford}, {Dencheva}, {Ely}, {Jenness},
+  {Labrie}, {Lim}, {Pierfederici}, {Pontzen}, {Ptak}, {Refsdal}, {Servillat},
+  \& {Streicher}}]{2013A&A...558A..33A}
+{Robitaille}, T.~P., {Tollerud}, E.~J., {Greenfield}, P., {et~al.} 2013, \aap,
+  588, A33
+
+\bibitem[{{Romero-G{\'o}mez} {et~al.}(2007){Romero-G{\'o}mez}, {Athanassoula},
+  {Masdemont}, \& {Garc{\'{\i}}a-G{\'o}mez}}]{Romero-Gomez2007}
+{Romero-G{\'o}mez}, M., {Athanassoula}, E., {Masdemont}, J.~J., \&
+  {Garc{\'{\i}}a-G{\'o}mez}, C. 2007, \aap, 472, 63
 
 \bibitem[{{Ross} {et~al.}(2011){Ross}, {Ho}, {Cuesta}, {Tojeiro}, {Percival},
   {Wake}, {Masters}, {Nichol}, {Myers}, {de Simoni}, {Seo},
@@ -296,6 +394,9 @@ Sandage, A. 2005, Annual Review of Astronomy and Astrophysics, 43, 581
   {Skibba}, {Treister}, {Willett}, {Wong}, \& {Yi}}]{Schawinski2014}
 {Schawinski}, K., {Urry}, C.~M., {Simmons}, B.~D., {et~al.} 2014, \mnras, 440,
   889
+
+\bibitem[{{Sellwood}(2011)}]{Sellwood2011}
+{Sellwood}, J.~A. 2011, \mnras, 410, 1637
 
 \bibitem[{{Shapley}(1927)}]{Shapley1927}
 {Shapley}, H. 1927, Harvard College Observatory Bulletin, 849, 1
@@ -339,6 +440,9 @@ Sandage, A. 2005, Annual Review of Astronomy and Astrophysics, 43, 581
 \bibitem[{{Tal} \& {van Dokkum}(2011)}]{TalvanDokkum2011}
 {Tal}, T., \& {van Dokkum}, P.~G. 2011, \apj, 731, 89
 
+\bibitem[{{Taylor}(2005)}]{2005ASPC..347...29T}
+{Taylor}, M.~B. 2005, in Astronomical Data Analysis Software and Systems XIV
+
 \bibitem[{{van den Bergh}(1976)}]{vandenBergh1976}
 {van den Bergh}, S. 1976, \apj, 206, 883
 
@@ -353,6 +457,11 @@ Sandage, A. 2005, Annual Review of Astronomy and Astrophysics, 43, 581
 \bibitem[{{van der Wel} {et~al.}(2011){van der Wel}, {Rix}, {Wuyts}, {McGrath},
   {Koekemoer}, {Bell}, {Holden}, {Robaina}, \& {McIntosh}}]{vanderWel2011}
 {van der Wel}, A., {Rix}, H.-W., {Wuyts}, S., {et~al.} 2011, \apj, 730, 38
+
+\bibitem[{{Walt} {et~al.}(2011){Walt}, {Colbert}, \&
+  {Varoquaux}}]{:/content/aip/journal/cise/13/2/10.1109/MCSE.2011.37}
+{Walt}, S. v.~d., {Colbert}, S.~C., \& {Varoquaux}, G. 2011, Computing in
+  Science \& Engineering, 13
 
 \bibitem[{{Weinmann} {et~al.}(2006){Weinmann}, {van den Bosch}, {Yang}, \&
   {Mo}}]{Weinmann2006}
