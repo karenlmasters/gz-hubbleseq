@@ -1,4 +1,4 @@
-\begin{thebibliography}{102}
+\begin{thebibliography}{106}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abazajian} {et~al.}(2009){Abazajian}, {Adelman-McCarthy},
@@ -41,6 +41,11 @@
 \bibitem[{{Bell} {et~al.}(2004){Bell}, {Wolf}, {Meisenheimer}, {Rix}, {Borch},
   {Dye}, {Kleinheinrich}, {Wisotzki}, \& {McIntosh}}]{Bell2004}
 {Bell}, E.~F., {Wolf}, C., {Meisenheimer}, K., {et~al.} 2004, \apj, 608, 752
+
+\bibitem[{{Bershady} {et~al.}(2010){Bershady}, {Verheijen}, {Swaters},
+  {Andersen}, {Westfall}, \& {Martinsson}}]{Bershady2010}
+{Bershady}, M.~A., {Verheijen}, M.~A.~W., {Swaters}, R.~A., {et~al.} 2010,
+  \apj, 716, 198
 
 \bibitem[{{Bryant} {et~al.}(2015){Bryant}, {Owers}, {Robotham}, {Croom},
   {Driver}, {Drinkwater}, {Lorente}, {Cortese}, {Scott}, {Colless}, {Schaefer},
@@ -116,6 +121,9 @@
   {Conselice}, {Croton}, {Davis}, {Faber}, {Guhathakurta}, {Koo}, {Lin},
   {Weiner}, {Willmer}, \& {Yan}}]{Cooper2010}
 {Cooper}, M.~C., {Coil}, A.~L., {Gerke}, B.~F., {et~al.} 2010, \mnras, 409, 337
+
+\bibitem[{{Davis} {et~al.}(2017){Davis}, {Graham}, \& {Seigar}}]{Davis2017}
+{Davis}, B.~L., {Graham}, A.~W., \& {Seigar}, M.~S. 2017, \mnras, 471, 2187
 
 \bibitem[{{Davis} {et~al.}(2015){Davis}, {Kennefick}, {Kennefick}, {Westfall},
   {Shields}, {Flatman}, {Hartley}, {Berrier}, {Martinsson}, \&
@@ -202,6 +210,11 @@
 
 \bibitem[{{Grand} {et~al.}(2013){Grand}, {Kawata}, \& {Cropper}}]{Grand2013}
 {Grand}, R.~J.~J., {Kawata}, D., \& {Cropper}, M. 2013, \aap, 553, A77
+
+\bibitem[{{Grand} {et~al.}(2017){Grand}, {G{\'o}mez}, {Marinacci}, {Pakmor},
+  {Springel}, {Campbell}, {Frenk}, {Jenkins}, \& {White}}]{Grand2017}
+{Grand}, R.~J.~J., {G{\'o}mez}, F.~A., {Marinacci}, F., {et~al.} 2017, \mnras,
+  467, 179
 
 \bibitem[{Hart {et~al.}(2017)Hart, Bamford, Casteels, Kruk, Lintott, \&
   Masters}]{Hart2017a}
@@ -299,6 +312,11 @@ Kendall, S., Kennicutt, R.~C., \& Clarke, C. 2011, Monthly Notices of the Royal
   {Dekel}}]{Martig2009}
 {Martig}, M., {Bournaud}, F., {Teyssier}, R., \& {Dekel}, A. 2009, \apj, 707,
   250
+
+\bibitem[{{Martinsson} {et~al.}(2013){Martinsson}, {Verheijen}, {Westfall},
+  {Bershady}, {Schechtman-Rook}, {Andersen}, \& {Swaters}}]{Martinsson2013}
+{Martinsson}, T.~P.~K., {Verheijen}, M.~A.~W., {Westfall}, K.~B., {et~al.}
+  2013, \aap, 557, A130
 
 \bibitem[{{Masters} {et~al.}(2010){Masters}, {Mosleh}, {Romer}, {Nichol},
   {Bamford}, {Schawinski}, {Lintott}, {Andreescu}, {Campbell}, {Crowcroft},

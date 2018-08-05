@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.14)  4 AUG 2018 16:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.14)  5 AUG 2018 14:30
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -283,97 +283,98 @@ Underfull \vbox (badness 1803) has occurred while \output is active []
  [8 <./RossFigure_nocontours_spread.png> <./bulge_armwinding.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<T-typeW13.png, id=75, 845.0772pt x 596.9502pt>
+ [9 <./bulge_armwinding_split_bar.pdf> <./examplebulgewinding3.png>]
+<T-typeW13.png, id=100, 845.0772pt x 596.9502pt>
 File: T-typeW13.png Graphic file (type png)
 <use T-typeW13.png>
-Package pdftex.def Info: T-typeW13.png  used on input line 353.
+Package pdftex.def Info: T-typeW13.png  used on input line 354.
 (pdftex.def)             Requested size: 241.67477pt x 170.71652pt.
 
-Overfull \hbox (1.67477pt too wide) in paragraph at lines 353--354
+Overfull \hbox (1.67477pt too wide) in paragraph at lines 354--355
 [][] 
  []
 
-[9 <./bulge_armwinding_split_bar.pdf> <./examplebulgewinding3.png>]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10 <./T-typeW13.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
  \OT1/cmr/bx/n/9 AC-KNOWL-EDGE-MENTS. \OT1/cmr/m/n/9 This pub-li-ca-tion has
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 406--407
+Underfull \hbox (badness 6910) in paragraph at lines 409--410
 \OT1/cmr/m/n/9 been made pos-si-ble by the par-tic-i-pa-tion of more
  []
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 406--407
+Underfull \hbox (badness 2846) in paragraph at lines 409--410
 \OT1/cmr/m/n/9 than 200,000 vol-un-teers in the Galaxy Zoo project.
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 406--407
+Underfull \hbox (badness 3646) in paragraph at lines 409--410
 \OT1/cmr/m/n/9 Their con-tri-bu-tions are in-di-vid-u-ally ac-knowl-edged at
  []
 
 
-Underfull \hbox (badness 5817) in paragraph at lines 406--407
+Underfull \hbox (badness 5817) in paragraph at lines 409--410
 \OT1/cmtt/m/n/9 http://authors.galaxyzoo.org\OT1/cmr/m/n/9 . We par-tic-u-larly
  wish
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 406--407
+Underfull \hbox (badness 1281) in paragraph at lines 409--410
 \OT1/cmr/m/n/9 tic-i-pated in the Galaxy Zoo lit-er-a-ture search ac-tiv-ity
  []
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 406--407
+Underfull \hbox (badness 2772) in paragraph at lines 409--410
 \OT1/cmr/m/n/9 (de-scribed at \OT1/cmtt/m/n/9 http://blog.galaxyzoo.org/2017/09
 /28/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
 \OT1/cmtt/m/n/9 galaxy-zoo-literature-search/\OT1/cmr/m/n/9 ). These vol-un-tee
 rs
  []
 
 
-Underfull \hbox (badness 7704) in paragraph at lines 406--407
+Underfull \hbox (badness 7704) in paragraph at lines 409--410
 \OT1/cmr/m/n/9 helped the au-thors iden-tify lit-er-a-ture ex-am-ples of
  []
 
 
-Underfull \hbox (badness 3312) in paragraph at lines 406--407
+Underfull \hbox (badness 3312) in paragraph at lines 409--410
 \OT1/cmr/m/n/9 cer-tain use of clas-si-fi-ca-tion sys-tems of galax-ies. Fi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
 \OT1/cmr/m/n/9 nally we ac-knowl-edge the nu-mer-ous con-trib-u-tors
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
 \OT1/cmr/m/n/9 to the Galaxy Zoo Fo-rum NGC Cat-a-logue List
  []
 
 
-Overfull \hbox (22.34143pt too wide) in paragraph at lines 406--407
+Overfull \hbox (22.34143pt too wide) in paragraph at lines 409--410
 \OT1/cmr/m/n/9 (\OT1/cmtt/m/n/9 http://www.galaxyzooforum.org/index.php?topic=2
 80028.0\OT1/cmr/m/n/9 )
  []
 
 [11] (./GZ_HubbleSequence.bbl [12]) [13] (./GZ_HubbleSequence.aux) ) 
 Here is how much of TeX's memory you used:
- 2555 strings out of 492649
- 36961 string characters out of 6129622
- 130622 words of memory out of 5000000
- 6396 multiletter control sequences out of 15000+600000
+ 2567 strings out of 492649
+ 37189 string characters out of 6129622
+ 132435 words of memory out of 5000000
+ 6408 multiletter control sequences out of 15000+600000
  13816 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,34p,2037b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,34p,2042b,372s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local
 /texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/
 texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/te
@@ -398,7 +399,7 @@ pe1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmtt9.pfb>
-Output written on GZ_HubbleSequence.pdf (13 pages, 13144479 bytes).
+Output written on GZ_HubbleSequence.pdf (13 pages, 13146458 bytes).
 PDF statistics:
  185 PDF objects out of 1000 (max. 8388607)
  127 compressed objects within 2 object streams
