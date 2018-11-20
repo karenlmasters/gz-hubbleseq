@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.14)  10 AUG 2018 17:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.14)  11 AUG 2018 09:09
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -297,10 +297,6 @@ Overfull \hbox (1.67477pt too wide) in paragraph at lines 355--356
  []
 
 
-Package natbib Warning: Citation `Messeri' on page 9 undefined on input line 36
-0.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9 <./bulge_armwinding_rolling_median.pdf>]
@@ -380,21 +376,17 @@ Overfull \hbox (22.34143pt too wide) in paragraph at lines 411--412
 80028.0\OT1/cmr/m/n/9 )
  []
 
-(./GZ_HubbleSequence.bbl [12] [13])
-
-Package natbib Warning: There were undefined citations.
-
-[14
+(./GZ_HubbleSequence.bbl [12] [13]) [14
 
 ] (./GZ_HubbleSequence.aux) ) 
 Here is how much of TeX's memory you used:
- 2567 strings out of 492649
- 37329 string characters out of 6129622
- 130613 words of memory out of 5000000
- 6408 multiletter control sequences out of 15000+600000
+ 2573 strings out of 492649
+ 37425 string characters out of 6129622
+ 130967 words of memory out of 5000000
+ 6414 multiletter control sequences out of 15000+600000
  13816 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,34p,2520b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,34p,2520b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
@@ -418,7 +410,7 @@ r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/
 local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/lo
 cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/loca
 l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on GZ_HubbleSequence.pdf (14 pages, 13172335 bytes).
+Output written on GZ_HubbleSequence.pdf (14 pages, 13172334 bytes).
 PDF statistics:
  195 PDF objects out of 1000 (max. 8388607)
  129 compressed objects within 2 object streams

@@ -1,4 +1,4 @@
-\begin{thebibliography}{106}
+\begin{thebibliography}{108}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abazajian} {et~al.}(2009){Abazajian}, {Adelman-McCarthy},
@@ -289,6 +289,15 @@ Kendall, S., Kennicutt, R.~C., \& Clarke, C. 2011, Monthly Notices of the Royal
 {Kruk}, S.~J., {Lintott}, C.~J., {Bamford}, S.~P., {et~al.} 2018, \mnras, 473,
   4731
 
+\bibitem[{{Lange} {et~al.}(2016){Lange}, {Moffett}, {Driver}, {Robotham},
+  {Lagos}, {Kelvin}, {Conselice}, {Margalef-Bentabol}, {Alpaslan}, {Baldry},
+  {Bland-Hawthorn}, {Bremer}, {Brough}, {Cluver}, {Colless}, {Davies},
+  {H{\"a}u{\ss}ler}, {Holwerda}, {Hopkins}, {Kafle}, {Kennedy}, {Liske},
+  {Phillipps}, {Popescu}, {Taylor}, {Tuffs}, {van Kampen}, \&
+  {Wright}}]{Lange2016}
+{Lange}, R., {Moffett}, A.~J., {Driver}, S.~P., {et~al.} 2016, \mnras, 462,
+  1470
+
 \bibitem[{{Laurikainen} {et~al.}(2007){Laurikainen}, {Salo}, {Buta}, \&
   {Knapen}}]{Laurikainen2007}
 {Laurikainen}, E., {Salo}, H., {Buta}, R., \& {Knapen}, J.~H. 2007, \mnras,
@@ -339,6 +348,9 @@ Kendall, S., Kennicutt, R.~C., \& Clarke, C. 2011, Monthly Notices of the Royal
 \bibitem[{{Merrifield} {et~al.}(2006){Merrifield}, {Rand}, \&
   {Meidt}}]{Merrifield2006}
 {Merrifield}, M.~R., {Rand}, R.~J., \& {Meidt}, S.~E. 2006, \mnras, 366, L17
+
+\bibitem[{{Messeri}(2009)}]{Messeri}
+{Messeri}, L.~R. 2009, {Social Studies of Science}, 40, 187
 
 \bibitem[{{Nair} \& {Abraham}(2010)}]{Nair2010a}
 {Nair}, P.~B., \& {Abraham}, R.~G. 2010, \apjs, 186, 427

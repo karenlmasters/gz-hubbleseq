@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: manuscript.aux
+The style file: apj.bst
+Database file #1: gzreferences.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--can't use both author and editor fields in Buta2013
+Warning--empty publisher in Buta2013
+Warning--empty publisher in 1991rc3..book.....D
+Warning--empty publisher in Hubble1936
+Warning--empty publisher in Sandage1961
+Warning--empty publisher in SandageBedke1994
+Warning--empty publisher in sandagetammann1981
+You've used 108 entries,
+            3010 wiz_defined-function locations,
+            1321 strings with 38662 characters,
+and the built_in function-call counts, 56940 in all, are:
+= -- 4094
+> -- 5215
+< -- 40
++ -- 1720
+- -- 1822
+* -- 5360
+:= -- 11189
+add.period$ -- 108
+call.type$ -- 108
+change.case$ -- 649
+chr.to.int$ -- 106
+cite$ -- 115
+duplicate$ -- 2010
+empty$ -- 2955
+format.name$ -- 1971
+if$ -- 10925
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 105
+newline$ -- 328
+num.names$ -- 434
+pop$ -- 716
+preamble$ -- 1
+purify$ -- 648
+quote$ -- 0
+skip$ -- 1695
+stack$ -- 0
+substring$ -- 2196
+swap$ -- 13
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 954
+warning$ -- 7
+while$ -- 379
+width$ -- 0
+write$ -- 1073
+(There were 7 warnings)
