@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: manuscript.aux
+The style file: apj.bst
+Database file #1: gzreferences.bib
+Repeated entry---line 2430 of file gzreferences.bib
+ : @article{Simmons2013
+ :                     ,
+I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--can't use both author and editor fields in Buta2013
+Warning--empty publisher in Buta2013
+Warning--empty publisher in 1991rc3..book.....D
+Warning--empty publisher in Hubble1936
+Warning--empty publisher in Sandage1961
+Warning--empty publisher in SandageBedke1994
+Warning--empty publisher in sandagetammann1981
+You've used 125 entries,
+            3010 wiz_defined-function locations,
+            1429 strings with 42115 characters,
+and the built_in function-call counts, 65096 in all, are:
+= -- 4794
+> -- 5802
+< -- 46
++ -- 1918
+- -- 2039
+* -- 6064
+:= -- 12725
+add.period$ -- 125
+call.type$ -- 125
+change.case$ -- 767
+chr.to.int$ -- 121
+cite$ -- 132
+duplicate$ -- 2331
+empty$ -- 3414
+format.name$ -- 2212
+if$ -- 12535
+int.to.chr$ -- 5
+int.to.str$ -- 1
+missing$ -- 122
+newline$ -- 379
+num.names$ -- 502
+pop$ -- 842
+preamble$ -- 1
+purify$ -- 766
+quote$ -- 0
+skip$ -- 1957
+stack$ -- 0
+substring$ -- 2553
+swap$ -- 17
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1107
+warning$ -- 7
+while$ -- 444
+width$ -- 0
+write$ -- 1243
+(There was 1 error message)

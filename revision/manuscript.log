@@ -1,0 +1,322 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=latex 2018.5.14)  13 MAR 2019 15:51
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**manuscript.tex
+(./manuscript.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(./mn2e.cls
+Document Class: mn2e 2001/02/06 v2.2 LaTeX2e MN document class
+Document Style `MN' v2.2, released 2001 February 20
+\math@groups=\toks14
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/cmsy/b/n on input line 223.
+\symbmisymbols=\mathgroup4
+\SFB@measure=\dimen102
+\realparindent=\skip41
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\@indentskip=\skip42
+\smallindent=\skip43
+\@footindent=\skip44
+\@leftskip=\skip45
+\c@dummy=\count86
+(/usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip46
+\bibsep=\skip47
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count87
+)
+\c@table=\count88
+\c@figure=\count89
+\mathindent=\dimen103
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 99.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: dvips.def on input line 147.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+Package pdflscape Info: Auto-detected driver: dvips (dvips) on input line 125.
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+\epsfxsize=\dimen106
+\epsfysize=\dimen107
+)
+(./manuscript.aux)
+\openout1 = `manuscript.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+\AtBeginShipoutBox=\box26
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 75.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 75.
+
+Overfull \hbox (15.69385pt too wide) in paragraph at lines 75--75
+[][]  
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 75.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 75.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 75.
+
+Overfull \hbox (22.79765pt too wide) in paragraph at lines 75--75
+[][]  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 89.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 91.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 91.
+ [1
+
+
+] [2]
+File: Figure1.ps Graphic file (type eps)
+
+<Figure1.ps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (860.0pt too wide) has occurred while \output is active
+[] []|[] []
+ []
+
+[3
+
+
+]
+
+Package natbib Warning: Citation `Wang2019' on page 4 undefined on input line 1
+12.
+
+File: Figure2.ps Graphic file (type eps)
+<Figure2.ps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (18.63243pt too wide) in paragraph at lines 135--194
+[][] 
+ []
+
+[4
+
+]
+Underfull \hbox (badness 1946) in paragraph at lines 199--199
+\OT1/cmr/m/n/8 eas which had re-peat vis-its (Ross et al. 2011); see also
+ []
+
+File: Figure3.ps Graphic file (type eps)
+<Figure3.ps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+[6]
+File: Figure4.ps Graphic file (type eps)
+ <Figure4.ps>
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 262.
+ [7]
+File: Figure5.ps Graphic file (type eps)
+ <Figure5.ps>
+File: Figure6.ps Graphic file (type eps)
+ <Figure6.ps>
+File: Figure7.ps Graphic file (type eps)
+ <Figure7.ps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+
+Package natbib Warning: Citation `Gao2019' on page 9 undefined on input line 29
+8.
+
+File: Figure8.ps Graphic file (type eps)
+<Figure8.ps>
+Overfull \hbox (1.58226pt too wide) in paragraph at lines 302--303
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+[10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+ \OT1/cmr/bx/n/9 AC-KNOWL-EDGE-MENTS. \OT1/cmr/m/n/9 This pub-li-ca-tion has
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 348--349
+\OT1/cmr/m/n/9 been made pos-si-ble by the par-tic-i-pa-tion of more
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 348--349
+\OT1/cmr/m/n/9 than 200,000 vol-un-teers in the Galaxy Zoo project.
+ []
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 348--349
+\OT1/cmr/m/n/9 Their con-tri-bu-tions are in-di-vid-u-ally ac-knowl-edged at
+ []
+
+
+Underfull \hbox (badness 5817) in paragraph at lines 348--349
+\OT1/cmtt/m/n/9 http://authors.galaxyzoo.org\OT1/cmr/m/n/9 . We par-tic-u-larly
+ wish
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 348--349
+\OT1/cmr/m/n/9 tic-i-pated in the Galaxy Zoo lit-er-a-ture search ac-tiv-ity
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 348--349
+\OT1/cmr/m/n/9 (de-scribed at \OT1/cmtt/m/n/9 http://blog.galaxyzoo.org/2017/09
+/28/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+\OT1/cmtt/m/n/9 galaxy-zoo-literature-search/\OT1/cmr/m/n/9 ). These vol-un-tee
+rs
+ []
+
+
+Underfull \hbox (badness 7704) in paragraph at lines 348--349
+\OT1/cmr/m/n/9 helped the au-thors iden-tify lit-er-a-ture ex-am-ples of
+ []
+
+
+Underfull \hbox (badness 3312) in paragraph at lines 348--349
+\OT1/cmr/m/n/9 cer-tain use of clas-si-fi-ca-tion sys-tems of galax-ies. Fi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+\OT1/cmr/m/n/9 nally we ac-knowl-edge the nu-mer-ous con-trib-u-tors
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+\OT1/cmr/m/n/9 to the Galaxy Zoo Fo-rum NGC Cat-a-logue List
+ []
+
+
+Overfull \hbox (22.34143pt too wide) in paragraph at lines 348--349
+\OT1/cmr/m/n/9 (\OT1/cmtt/m/n/9 http://www.galaxyzooforum.org/index.php?topic=2
+80028.0\OT1/cmr/m/n/9 )
+ []
+
+(./manuscript.bbl [13] [14])
+
+Package natbib Warning: There were undefined citations.
+
+[15
+
+] (./manuscript.aux) ) 
+Here is how much of TeX's memory you used:
+ 2089 strings out of 492650
+ 29359 string characters out of 6129648
+ 121514 words of memory out of 5000000
+ 5957 multiletter control sequences out of 15000+600000
+ 14124 words of font info for 48 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 31i,10n,34p,2074b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on manuscript.dvi (15 pages, 108396 bytes).
